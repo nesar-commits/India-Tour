@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { api } from "../api.js";
 import { useFetch } from "../useFetch.js";
 import Chips from "../components/Chips.jsx";
+import Photo from "../components/Photo.jsx";
 
 export default function Home() {
   const [q, setQ] = useState("");
@@ -51,13 +52,16 @@ export default function Home() {
       <section className="grid">
         {states?.map((s) => (
           <Link key={s.id} to={`/states/${s.id}`} className={`card state-card region-${s.region.toLowerCase()}`}>
-            <div className="state-card-top">
-              <span className="tag">{s.region}</span>
-              {s.type === "Union Territory" && <span className="tag outline">UT</span>}
+            <Photo image={s.cover_image} alt={s.name} className="state-photo" credit={false} />
+            <div className="state-card-body">
+              <div className="state-card-top">
+                <span className="tag">{s.region}</span>
+                {s.type === "Union Territory" && <span className="tag outline">UT</span>}
+              </div>
+              <h2>{s.name}</h2>
+              <p className="muted small">Capital: {s.capital}</p>
+              <p className="small count">{s.place_count} places to visit →</p>
             </div>
-            <h2>{s.name}</h2>
-            <p className="muted small">Capital: {s.capital}</p>
-            <p className="small count">{s.place_count} places to visit →</p>
           </Link>
         ))}
       </section>

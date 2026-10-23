@@ -5,15 +5,83 @@
     "type": "State",
     "capital": "Amaravati",
     "region": "South",
-    "languages": ["Telugu"],
+    "languages": [
+      "Telugu"
+    ],
     "best_time": "October to March",
     "description": "A coastal state on the Bay of Bengal known for ancient temples, Buddhist sites, spicy cuisine and the hills of the Eastern Ghats.",
     "places": [
-      {"name": "Tirumala Venkateswara Temple", "city": "Tirupati", "category": "Spiritual", "description": "One of the most visited pilgrimage sites in the world, set atop the Tirumala hills."},
-      {"name": "Araku Valley", "city": "Visakhapatnam district", "category": "Hill Station", "description": "A cool hill valley famous for coffee plantations, tribal culture and the Borra Caves nearby."},
-      {"name": "Borra Caves", "city": "Ananthagiri Hills", "category": "Nature", "description": "Million-year-old limestone caves with striking stalactite and stalagmite formations."},
-      {"name": "RK Beach", "city": "Visakhapatnam", "category": "Beach", "description": "A long city beach with a submarine museum and views of the busy harbour."},
-      {"name": "Gandikota", "city": "Kadapa district", "category": "Heritage", "description": "Called the Grand Canyon of India, a deep gorge of the Pennar river beside a medieval fort."}
+      {
+        "name": "Tirumala Venkateswara Temple",
+        "city": "Tirupati",
+        "category": "Spiritual",
+        "description": "One of the most visited pilgrimage sites in the world, set atop the Tirumala hills.",
+        "wiki_title": "Venkateswara Temple, Tirumala",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Tirumala_090615.jpg/960px-Tirumala_090615.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Tirumala_090615.jpg",
+          "author": "Nikhilb239",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://en.wikipedia.org/wiki/Venkateswara_Temple%2C_Tirumala"
+        }
+      },
+      {
+        "name": "Araku Valley",
+        "city": "Visakhapatnam district",
+        "category": "Hill Station",
+        "description": "A cool hill valley famous for coffee plantations, tribal culture and the Borra Caves nearby.",
+        "image": {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Araku-valley.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Araku-valley.jpg",
+          "author": "Eswararaokenguva",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://en.wikipedia.org/wiki/Araku_Valley"
+        }
+      },
+      {
+        "name": "Borra Caves",
+        "city": "Ananthagiri Hills",
+        "category": "Nature",
+        "description": "Million-year-old limestone caves with striking stalactite and stalagmite formations.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Borra_caves%2C_Viskhapatnam.jpg/960px-Borra_caves%2C_Viskhapatnam.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Borra_caves,_Viskhapatnam.jpg",
+          "author": "Apy Seth",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://en.wikipedia.org/wiki/Borra_Caves"
+        }
+      },
+      {
+        "name": "RK Beach",
+        "city": "Visakhapatnam",
+        "category": "Beach",
+        "description": "A long city beach with a submarine museum and views of the busy harbour.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/RK_Beach_Night.jpg/960px-RK_Beach_Night.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:RK_Beach_Night.jpg",
+          "author": "Av9",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://en.wikipedia.org/wiki/RK_Beach"
+        }
+      },
+      {
+        "name": "Gandikota",
+        "city": "Kadapa district",
+        "category": "Heritage",
+        "description": "Called the Grand Canyon of India, a deep gorge of the Pennar river beside a medieval fort.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Indian_Grand_Canyon_Sudhakar_Bichali.jpg/960px-Indian_Grand_Canyon_Sudhakar_Bichali.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Indian_Grand_Canyon_Sudhakar_Bichali.jpg",
+          "author": "Sudhakarbichali",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://en.wikipedia.org/wiki/Gandikota"
+        }
+      }
     ]
   },
   {
@@ -22,15 +90,87 @@
     "type": "State",
     "capital": "Itanagar",
     "region": "Northeast",
-    "languages": ["English", "Hindi", "Nyishi", "Adi", "Monpa"],
+    "languages": [
+      "English",
+      "Hindi",
+      "Nyishi",
+      "Adi",
+      "Monpa"
+    ],
     "best_time": "October to April",
     "description": "India's easternmost state, the 'Land of the Dawn-Lit Mountains', with Himalayan monasteries, remote valleys and diverse tribal cultures.",
     "places": [
-      {"name": "Tawang Monastery", "city": "Tawang", "category": "Spiritual", "description": "The largest monastery in India, perched at about 3,000 m overlooking the Tawang valley."},
-      {"name": "Ziro Valley", "city": "Ziro", "category": "Nature", "description": "Rice-terraced valley of the Apatani tribe and home of the annual Ziro Music Festival."},
-      {"name": "Sela Pass", "city": "West Kameng", "category": "Adventure", "description": "A high-altitude pass at 4,170 m with a sacred lake, snow-covered for much of the year."},
-      {"name": "Namdapha National Park", "city": "Changlang", "category": "Wildlife", "description": "A vast rainforest reserve and the only park in the world with four big cat species."},
-      {"name": "Bomdila", "city": "West Kameng", "category": "Hill Station", "description": "A quiet hill town with apple orchards, monasteries and Himalayan views."}
+      {
+        "name": "Tawang Monastery",
+        "city": "Tawang",
+        "category": "Spiritual",
+        "description": "The largest monastery in India, perched at about 3,000 m overlooking the Tawang valley.",
+        "wiki_title": "Tawang Monastery",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/TawangMonastery.jpg/960px-TawangMonastery.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:TawangMonastery.jpg",
+          "author": "Rumelade",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://en.wikipedia.org/wiki/Tawang_Monastery"
+        }
+      },
+      {
+        "name": "Ziro Valley",
+        "city": "Ziro",
+        "category": "Nature",
+        "description": "Rice-terraced valley of the Apatani tribe and home of the annual Ziro Music Festival.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/A_cross_section_of_luch_green_valley_of_Ziro.jpg/960px-A_cross_section_of_luch_green_valley_of_Ziro.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:A_cross_section_of_luch_green_valley_of_Ziro.jpg",
+          "author": "Arunachal2007",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://en.wikipedia.org/wiki/Ziro"
+        }
+      },
+      {
+        "name": "Sela Pass",
+        "city": "West Kameng",
+        "category": "Adventure",
+        "description": "A high-altitude pass at 4,170 m with a sacred lake, snow-covered for much of the year.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Tawang_Gate.jpg/960px-Tawang_Gate.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Tawang_Gate.jpg",
+          "author": "Dhrubazaanphotography",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://en.wikipedia.org/wiki/Sela_Pass"
+        }
+      },
+      {
+        "name": "Namdapha National Park",
+        "city": "Changlang",
+        "category": "Wildlife",
+        "description": "A vast rainforest reserve and the only park in the world with four big cat species.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Forest_snow_Namdapha_IMG_3373_04.jpg/960px-Forest_snow_Namdapha_IMG_3373_04.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Forest_snow_Namdapha_IMG_3373_04.jpg",
+          "author": "Rohit Naniwadekar",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://en.wikipedia.org/wiki/Namdapha_National_Park"
+        }
+      },
+      {
+        "name": "Bomdila",
+        "city": "West Kameng",
+        "category": "Hill Station",
+        "description": "A quiet hill town with apple orchards, monasteries and Himalayan views.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Bomdila.jpg/960px-Bomdila.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Bomdila.jpg",
+          "author": "TassoRija",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://en.wikipedia.org/wiki/Bomdila"
+        }
+      }
     ]
   },
   {
@@ -39,15 +179,84 @@
     "type": "State",
     "capital": "Dispur",
     "region": "Northeast",
-    "languages": ["Assamese", "Bodo", "Bengali"],
+    "languages": [
+      "Assamese",
+      "Bodo",
+      "Bengali"
+    ],
     "best_time": "November to April",
     "description": "The gateway to the Northeast, known for its tea gardens, the mighty Brahmaputra and the one-horned rhinoceros.",
     "places": [
-      {"name": "Kaziranga National Park", "city": "Golaghat", "category": "Wildlife", "description": "UNESCO World Heritage Site that holds two-thirds of the world's one-horned rhinos."},
-      {"name": "Kamakhya Temple", "city": "Guwahati", "category": "Spiritual", "description": "An ancient Shakti Peetha on Nilachal Hill and a major pilgrimage centre."},
-      {"name": "Majuli", "city": "Jorhat district", "category": "Nature", "description": "One of the world's largest river islands, the heart of Assamese Vaishnavite culture."},
-      {"name": "Manas National Park", "city": "Baksa", "category": "Wildlife", "description": "A UNESCO site and tiger reserve on the Bhutan border with rare golden langurs."},
-      {"name": "Sivasagar", "city": "Sivasagar", "category": "Heritage", "description": "Former Ahom capital with monuments like Rang Ghar and Talatal Ghar."}
+      {
+        "name": "Kaziranga National Park",
+        "city": "Golaghat",
+        "category": "Wildlife",
+        "description": "UNESCO World Heritage Site that holds two-thirds of the world's one-horned rhinos.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Beauty_of_Kaziranga_National_Park.jpg/960px-Beauty_of_Kaziranga_National_Park.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Beauty_of_Kaziranga_National_Park.jpg",
+          "author": "Diganta Talukdar",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://en.wikipedia.org/wiki/Kaziranga_National_Park"
+        }
+      },
+      {
+        "name": "Kamakhya Temple",
+        "city": "Guwahati",
+        "category": "Spiritual",
+        "description": "An ancient Shakti Peetha on Nilachal Hill and a major pilgrimage centre.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Kamakhya_Temple_-_DEV_8829.jpg/960px-Kamakhya_Temple_-_DEV_8829.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Kamakhya_Temple_-_DEV_8829.jpg",
+          "author": "Devkmaravi",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://en.wikipedia.org/wiki/Kamakhya_Temple"
+        }
+      },
+      {
+        "name": "Majuli",
+        "city": "Jorhat district",
+        "category": "Nature",
+        "description": "One of the world's largest river islands, the heart of Assamese Vaishnavite culture.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Doriya_River_of_Majuli.jpg/960px-Doriya_River_of_Majuli.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Doriya_River_of_Majuli.jpg",
+          "author": "Dhrubazaan Photography",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://en.wikipedia.org/wiki/Majuli"
+        }
+      },
+      {
+        "name": "Manas National Park",
+        "city": "Baksa",
+        "category": "Wildlife",
+        "description": "A UNESCO site and tiger reserve on the Bhutan border with rare golden langurs.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Manas_landscape_rhino.jpg/960px-Manas_landscape_rhino.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Manas_landscape_rhino.jpg",
+          "author": "AmAnand",
+          "license": "CC0",
+          "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "source_page": "https://en.wikipedia.org/wiki/Manas_National_Park"
+        }
+      },
+      {
+        "name": "Sivasagar",
+        "city": "Sivasagar",
+        "category": "Heritage",
+        "description": "Former Ahom capital with monuments like Rang Ghar and Talatal Ghar.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Sivasagar_Night_View.jpg/960px-Sivasagar_Night_View.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Sivasagar_Night_View.jpg",
+          "author": "Shyam Kaanu",
+          "license": "CC0",
+          "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "source_page": "https://en.wikipedia.org/wiki/Sivasagar"
+        }
+      }
     ]
   },
   {
@@ -56,15 +265,86 @@
     "type": "State",
     "capital": "Patna",
     "region": "East",
-    "languages": ["Hindi", "Maithili", "Bhojpuri"],
+    "languages": [
+      "Hindi",
+      "Maithili",
+      "Bhojpuri"
+    ],
     "best_time": "October to March",
     "description": "The land where Buddhism and Jainism flourished, home to ancient universities and the seat of the Mauryan empire.",
     "places": [
-      {"name": "Mahabodhi Temple", "city": "Bodh Gaya", "category": "Spiritual", "description": "UNESCO site marking where the Buddha attained enlightenment under the Bodhi tree."},
-      {"name": "Nalanda Mahavihara", "city": "Nalanda", "category": "Heritage", "description": "Ruins of one of the world's oldest residential universities, a UNESCO World Heritage Site."},
-      {"name": "Rajgir", "city": "Rajgir", "category": "Spiritual", "description": "Ancient Magadha capital with hot springs, the Vishwa Shanti Stupa and a glass bridge."},
-      {"name": "Vaishali", "city": "Vaishali", "category": "Heritage", "description": "Birthplace of Lord Mahavira, with an Ashokan pillar and early Buddhist stupas."},
-      {"name": "Takht Sri Patna Sahib", "city": "Patna", "category": "Spiritual", "description": "A revered gurdwara at the birthplace of Guru Gobind Singh."}
+      {
+        "name": "Mahabodhi Temple",
+        "city": "Bodh Gaya",
+        "category": "Spiritual",
+        "description": "UNESCO site marking where the Buddha attained enlightenment under the Bodhi tree.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Mahabodhitemple.jpg/960px-Mahabodhitemple.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Mahabodhitemple.jpg",
+          "author": "Bpilgrim",
+          "license": "CC BY-SA 2.5",
+          "license_url": "https://creativecommons.org/licenses/by-sa/2.5",
+          "source_page": "https://en.wikipedia.org/wiki/Mahabodhi_Temple"
+        }
+      },
+      {
+        "name": "Nalanda Mahavihara",
+        "city": "Nalanda",
+        "category": "Heritage",
+        "description": "Ruins of one of the world's oldest residential universities, a UNESCO World Heritage Site.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Temple_No.-_3%2C_Nalanda_Archaeological_Site.jpg/960px-Temple_No.-_3%2C_Nalanda_Archaeological_Site.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Temple_No.-_3,_Nalanda_Archaeological_Site.jpg",
+          "author": "Odantapuribs",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://en.wikipedia.org/wiki/Nalanda_mahavihara"
+        }
+      },
+      {
+        "name": "Rajgir",
+        "city": "Rajgir",
+        "category": "Spiritual",
+        "description": "Ancient Magadha capital with hot springs, the Vishwa Shanti Stupa and a glass bridge.",
+        "wiki_title": "Rajgir",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Shanti_Stupa_at_Rajgir_%28cropped%29.jpg/960px-Shanti_Stupa_at_Rajgir_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Shanti_Stupa_at_Rajgir_(cropped).jpg",
+          "author": "Photo Dharma from Penang, Malaysia",
+          "license": "CC BY 2.0",
+          "license_url": "https://creativecommons.org/licenses/by/2.0",
+          "source_page": "https://en.wikipedia.org/wiki/Rajgir"
+        }
+      },
+      {
+        "name": "Vaishali",
+        "city": "Vaishali",
+        "category": "Heritage",
+        "description": "Birthplace of Lord Mahavira, with an Ashokan pillar and early Buddhist stupas.",
+        "wiki_title": "Vaishali (ancient city)",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/N-BR-69_Raja_Vishal_Garh_%285%29.jpg/960px-N-BR-69_Raja_Vishal_Garh_%285%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:N-BR-69_Raja_Vishal_Garh_(5).jpg",
+          "author": "Amaan Imam",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://en.wikipedia.org/wiki/Vaishali_%28ancient_city%29"
+        }
+      },
+      {
+        "name": "Takht Sri Patna Sahib",
+        "city": "Patna",
+        "category": "Spiritual",
+        "description": "A revered gurdwara at the birthplace of Guru Gobind Singh.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/TheJoyof350thAnniversary%40IncredibleIndia.jpg/960px-TheJoyof350thAnniversary%40IncredibleIndia.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:TheJoyof350thAnniversary@IncredibleIndia.jpg",
+          "author": "Harishu3011",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://en.wikipedia.org/wiki/Takht_Sri_Patna_Sahib"
+        }
+      }
     ]
   },
   {
@@ -73,15 +353,84 @@
     "type": "State",
     "capital": "Raipur",
     "region": "Central",
-    "languages": ["Hindi", "Chhattisgarhi"],
+    "languages": [
+      "Hindi",
+      "Chhattisgarhi"
+    ],
     "best_time": "October to February",
     "description": "A forested state of waterfalls, caves and vibrant tribal traditions in central India.",
     "places": [
-      {"name": "Chitrakote Falls", "city": "Jagdalpur", "category": "Nature", "description": "The widest waterfall in India, often called the Niagara of India."},
-      {"name": "Tirathgarh Falls", "city": "Bastar", "category": "Nature", "description": "A multi-tiered waterfall inside Kanger Valley National Park."},
-      {"name": "Kanger Valley National Park", "city": "Bastar", "category": "Wildlife", "description": "Dense forests with limestone caves such as Kutumsar and Kailash."},
-      {"name": "Bhoramdeo Temple", "city": "Kabirdham", "category": "Heritage", "description": "An 11th-century temple with carvings that earn it the name 'Khajuraho of Chhattisgarh'."},
-      {"name": "Sirpur", "city": "Mahasamund", "category": "Heritage", "description": "Archaeological site with the brick Laxman Temple and ancient Buddhist viharas."}
+      {
+        "name": "Chitrakote Falls",
+        "city": "Jagdalpur",
+        "category": "Nature",
+        "description": "The widest waterfall in India, often called the Niagara of India.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Chitrakot_waterfalls.JPG/960px-Chitrakot_waterfalls.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Chitrakot_waterfalls.JPG",
+          "author": "Iamg at English Wikipedia",
+          "license": "CC BY-SA 3.0",
+          "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+          "source_page": "https://en.wikipedia.org/wiki/Chitrakote_Falls"
+        }
+      },
+      {
+        "name": "Tirathgarh Falls",
+        "city": "Bastar",
+        "category": "Nature",
+        "description": "A multi-tiered waterfall inside Kanger Valley National Park.",
+        "wiki_file": "Tirathgarh Falls, Jagdalpur, chattisgarh.jpg",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Tirathgarh_Falls%2C_Jagdalpur%2C_chattisgarh.jpg/960px-Tirathgarh_Falls%2C_Jagdalpur%2C_chattisgarh.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Tirathgarh_Falls,_Jagdalpur,_chattisgarh.jpg",
+          "author": "Mashooque14",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": ""
+        }
+      },
+      {
+        "name": "Kanger Valley National Park",
+        "city": "Bastar",
+        "category": "Wildlife",
+        "description": "Dense forests with limestone caves such as Kutumsar and Kailash.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Kanger_valley_National_Park.png/960px-Kanger_valley_National_Park.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Kanger_valley_National_Park.png",
+          "author": "VishuN",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://en.wikipedia.org/wiki/Kanger_Valley_National_Park"
+        }
+      },
+      {
+        "name": "Bhoramdeo Temple",
+        "city": "Kabirdham",
+        "category": "Heritage",
+        "description": "An 11th-century temple with carvings that earn it the name 'Khajuraho of Chhattisgarh'.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Bhoramdeo_Temple%2C_Kawardha.jpg/960px-Bhoramdeo_Temple%2C_Kawardha.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Bhoramdeo_Temple,_Kawardha.jpg",
+          "author": "Pankaj Oudhia",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source_page": "https://en.wikipedia.org/wiki/Bhoramdeo_Temple"
+        }
+      },
+      {
+        "name": "Sirpur",
+        "city": "Mahasamund",
+        "category": "Heritage",
+        "description": "Archaeological site with the brick Laxman Temple and ancient Buddhist viharas.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/7th_-_9th_century_Surang_tila_mandapa_before_shrines%2C_Sirpur_monuments_Chhattisgarh.jpg/960px-7th_-_9th_century_Surang_tila_mandapa_before_shrines%2C_Sirpur_monuments_Chhattisgarh.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:7th_-_9th_century_Surang_tila_mandapa_before_shrines,_Sirpur_monuments_Chhattisgarh.jpg",
+          "author": "Ms Sarah Welch",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://en.wikipedia.org/wiki/Sirpur%2C_Mahasamund"
+        }
+      }
     ]
   },
   {
@@ -90,15 +439,84 @@
     "type": "State",
     "capital": "Panaji",
     "region": "West",
-    "languages": ["Konkani", "Marathi"],
+    "languages": [
+      "Konkani",
+      "Marathi"
+    ],
     "best_time": "November to February",
     "description": "India's smallest state by area, famous for beaches, Portuguese-era churches, seafood and nightlife.",
     "places": [
-      {"name": "Basilica of Bom Jesus", "city": "Old Goa", "category": "Heritage", "description": "UNESCO-listed baroque church holding the remains of St. Francis Xavier."},
-      {"name": "Baga & Calangute Beach", "city": "North Goa", "category": "Beach", "description": "Lively beaches known for water sports, shacks and nightlife."},
-      {"name": "Palolem Beach", "city": "South Goa", "category": "Beach", "description": "A crescent-shaped, palm-fringed beach with calm waters."},
-      {"name": "Dudhsagar Falls", "city": "Mollem", "category": "Nature", "description": "A four-tiered waterfall on the Mandovi river, among India's tallest."},
-      {"name": "Fort Aguada", "city": "Candolim", "category": "Heritage", "description": "A 17th-century Portuguese fort and lighthouse overlooking the Arabian Sea."}
+      {
+        "name": "Basilica of Bom Jesus",
+        "city": "Old Goa",
+        "category": "Heritage",
+        "description": "UNESCO-listed baroque church holding the remains of St. Francis Xavier.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Front_Elevation_of_Basilica_of_Bom_Jesus.jpg/960px-Front_Elevation_of_Basilica_of_Bom_Jesus.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Front_Elevation_of_Basilica_of_Bom_Jesus.jpg",
+          "author": "iMahesh",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://en.wikipedia.org/wiki/Basilica_of_Bom_Jesus"
+        }
+      },
+      {
+        "name": "Baga & Calangute Beach",
+        "city": "North Goa",
+        "category": "Beach",
+        "description": "Lively beaches known for water sports, shacks and nightlife.",
+        "wiki_title": "Calangute",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Sunset_at_Calangute.jpg/960px-Sunset_at_Calangute.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Sunset_at_Calangute.jpg",
+          "author": "Aditya Mandke",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://en.wikipedia.org/wiki/Calangute"
+        }
+      },
+      {
+        "name": "Palolem Beach",
+        "city": "South Goa",
+        "category": "Beach",
+        "description": "A crescent-shaped, palm-fringed beach with calm waters.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Palolem_Beach%2C_South_Goa.jpg/960px-Palolem_Beach%2C_South_Goa.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Palolem_Beach,_South_Goa.jpg",
+          "author": "iMahesh",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://en.wikipedia.org/wiki/Palolem_Beach"
+        }
+      },
+      {
+        "name": "Dudhsagar Falls",
+        "city": "Mollem",
+        "category": "Nature",
+        "description": "A four-tiered waterfall on the Mandovi river, among India's tallest.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Doodhsagar_Fall.jpg/960px-Doodhsagar_Fall.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Doodhsagar_Fall.jpg",
+          "author": "Hsp wiki",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://en.wikipedia.org/wiki/Dudhsagar_Falls"
+        }
+      },
+      {
+        "name": "Fort Aguada",
+        "city": "Candolim",
+        "category": "Heritage",
+        "description": "A 17th-century Portuguese fort and lighthouse overlooking the Arabian Sea.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Fort_aguada.jpg/960px-Fort_aguada.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Fort_aguada.jpg",
+          "author": "Nanasur at English Wikipedia",
+          "license": "CC BY-SA 3.0",
+          "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+          "source_page": "https://en.wikipedia.org/wiki/Fort_Aguada"
+        }
+      }
     ]
   },
   {
@@ -107,15 +525,82 @@
     "type": "State",
     "capital": "Gandhinagar",
     "region": "West",
-    "languages": ["Gujarati"],
+    "languages": [
+      "Gujarati"
+    ],
     "best_time": "October to March",
     "description": "Land of Mahatma Gandhi, the Asiatic lion, white salt deserts and rich textile and food traditions.",
     "places": [
-      {"name": "Statue of Unity", "city": "Kevadia", "category": "Heritage", "description": "The world's tallest statue (182 m), honouring Sardar Vallabhbhai Patel."},
-      {"name": "Rann of Kutch", "city": "Kutch", "category": "Nature", "description": "A vast white salt desert, best seen during the Rann Utsav festival."},
-      {"name": "Gir National Park", "city": "Junagadh", "category": "Wildlife", "description": "The only natural home of the Asiatic lion."},
-      {"name": "Somnath Temple", "city": "Veraval", "category": "Spiritual", "description": "The first of the twelve Jyotirlingas, set on the Arabian Sea coast."},
-      {"name": "Sabarmati Ashram", "city": "Ahmedabad", "category": "Heritage", "description": "Gandhi's home for over a decade and starting point of the Dandi March."}
+      {
+        "name": "Statue of Unity",
+        "city": "Kevadia",
+        "category": "Heritage",
+        "description": "The world's tallest statue (182 m), honouring Sardar Vallabhbhai Patel.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Statue_of_Unity.jpg/960px-Statue_of_Unity.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Statue_of_Unity.jpg",
+          "author": "Snehrashmi",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://en.wikipedia.org/wiki/Statue_of_Unity"
+        }
+      },
+      {
+        "name": "Rann of Kutch",
+        "city": "Kutch",
+        "category": "Nature",
+        "description": "A vast white salt desert, best seen during the Rann Utsav festival.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Rann_of_Kutch_-_White_Desert.jpg/960px-Rann_of_Kutch_-_White_Desert.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Rann_of_Kutch_-_White_Desert.jpg",
+          "author": "Superfast1111",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source_page": "https://en.wikipedia.org/wiki/Rann_of_Kutch"
+        }
+      },
+      {
+        "name": "Gir National Park",
+        "city": "Junagadh",
+        "category": "Wildlife",
+        "description": "The only natural home of the Asiatic lion.",
+        "image": {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Gir_lion-Gir_forest%2Cjunagadh%2Cgujarat%2Cindia.jpeg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Gir_lion-Gir_forest,junagadh,gujarat,india.jpeg",
+          "author": "Mayankvagadiya",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source_page": "https://en.wikipedia.org/wiki/Gir_National_Park"
+        }
+      },
+      {
+        "name": "Somnath Temple",
+        "city": "Veraval",
+        "category": "Spiritual",
+        "description": "The first of the twelve Jyotirlingas, set on the Arabian Sea coast.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Somanath_mandir_%28cropped%29.jpg/960px-Somanath_mandir_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Somanath_mandir_(cropped).jpg",
+          "author": "B. SurajPatro1997",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://en.wikipedia.org/wiki/Somnath_Temple"
+        }
+      },
+      {
+        "name": "Sabarmati Ashram",
+        "city": "Ahmedabad",
+        "category": "Heritage",
+        "description": "Gandhi's home for over a decade and starting point of the Dandi March.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/GANDHI_ASHRAM_03.jpg/960px-GANDHI_ASHRAM_03.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:GANDHI_ASHRAM_03.jpg",
+          "author": "Umar",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source_page": "https://en.wikipedia.org/wiki/Sabarmati_Ashram"
+        }
+      }
     ]
   },
   {
@@ -124,15 +609,85 @@
     "type": "State",
     "capital": "Chandigarh",
     "region": "North",
-    "languages": ["Hindi", "Haryanvi", "Punjabi"],
+    "languages": [
+      "Hindi",
+      "Haryanvi",
+      "Punjabi"
+    ],
     "best_time": "October to March",
     "description": "A state steeped in Mahabharata history that surrounds Delhi on three sides.",
     "places": [
-      {"name": "Kurukshetra", "city": "Kurukshetra", "category": "Spiritual", "description": "Battlefield of the Mahabharata, with Brahma Sarovar and Jyotisar."},
-      {"name": "Sultanpur National Park", "city": "Gurugram", "category": "Wildlife", "description": "A bird sanctuary visited by migratory birds every winter."},
-      {"name": "Pinjore Gardens", "city": "Panchkula", "category": "Heritage", "description": "17th-century Mughal terraced gardens also known as Yadavindra Gardens."},
-      {"name": "Morni Hills", "city": "Panchkula", "category": "Hill Station", "description": "Haryana's only hill station, with lakes and trekking trails."},
-      {"name": "Surajkund", "city": "Faridabad", "category": "Heritage", "description": "An ancient reservoir that hosts the famous international crafts fair."}
+      {
+        "name": "Kurukshetra",
+        "city": "Kurukshetra",
+        "category": "Spiritual",
+        "description": "Battlefield of the Mahabharata, with Brahma Sarovar and Jyotisar.",
+        "image": {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Kurukshetra_junction_kkde.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Kurukshetra_junction_kkde.jpg",
+          "author": "Sid Sharma5911",
+          "license": "CC BY 4.0",
+          "license_url": "https://creativecommons.org/licenses/by/4.0",
+          "source_page": "https://en.wikipedia.org/wiki/Kurukshetra"
+        }
+      },
+      {
+        "name": "Sultanpur National Park",
+        "city": "Gurugram",
+        "category": "Wildlife",
+        "description": "A bird sanctuary visited by migratory birds every winter.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Sultanpur_Bird_Sanctuary%2C_Gurgaon.jpg/960px-Sultanpur_Bird_Sanctuary%2C_Gurgaon.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Sultanpur_Bird_Sanctuary,_Gurgaon.jpg",
+          "author": "Vishalbhatia93",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://en.wikipedia.org/wiki/Sultanpur_National_Park"
+        }
+      },
+      {
+        "name": "Pinjore Gardens",
+        "city": "Panchkula",
+        "category": "Heritage",
+        "description": "17th-century Mughal terraced gardens also known as Yadavindra Gardens.",
+        "wiki_title": "Pinjore Gardens",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Pinjore_Garden_Panchkula.jpg/960px-Pinjore_Garden_Panchkula.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Pinjore_Garden_Panchkula.jpg",
+          "author": "Unpetitprole",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://en.wikipedia.org/wiki/Yadavindra_Gardens"
+        }
+      },
+      {
+        "name": "Morni Hills",
+        "city": "Panchkula",
+        "category": "Hill Station",
+        "description": "Haryana's only hill station, with lakes and trekking trails.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Mornihills.jpg/960px-Mornihills.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Mornihills.jpg",
+          "author": "Sid Sharma5911",
+          "license": "CC BY 4.0",
+          "license_url": "https://creativecommons.org/licenses/by/4.0",
+          "source_page": "https://en.wikipedia.org/wiki/Morni"
+        }
+      },
+      {
+        "name": "Surajkund",
+        "city": "Faridabad",
+        "category": "Heritage",
+        "description": "An ancient reservoir that hosts the famous international crafts fair.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Suraj_Kund.jpg/960px-Suraj_Kund.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Suraj_Kund.jpg",
+          "author": "Jyoti Prakash Bhattacharjee",
+          "license": "CC BY 2.0",
+          "license_url": "https://creativecommons.org/licenses/by/2.0",
+          "source_page": "https://en.wikipedia.org/wiki/Surajkund"
+        }
+      }
     ]
   },
   {
@@ -141,15 +696,84 @@
     "type": "State",
     "capital": "Shimla",
     "region": "North",
-    "languages": ["Hindi", "Pahari"],
+    "languages": [
+      "Hindi",
+      "Pahari"
+    ],
     "best_time": "March to June, December to February for snow",
     "description": "The 'Land of Gods', a Himalayan state of snow peaks, apple orchards, hill stations and adventure sports.",
     "places": [
-      {"name": "Shimla", "city": "Shimla", "category": "Hill Station", "description": "Former British summer capital with the Mall Road, Ridge and a UNESCO toy train."},
-      {"name": "Manali & Solang Valley", "city": "Kullu district", "category": "Adventure", "description": "A base for skiing, paragliding and trips over Atal Tunnel to Lahaul."},
-      {"name": "McLeod Ganj", "city": "Dharamshala", "category": "Spiritual", "description": "Home of the Dalai Lama and the Tibetan government-in-exile."},
-      {"name": "Spiti Valley", "city": "Lahaul & Spiti", "category": "Adventure", "description": "A cold desert valley with ancient monasteries such as Key and Tabo."},
-      {"name": "Dalhousie & Khajjiar", "city": "Chamba district", "category": "Hill Station", "description": "Colonial-era hill town and the meadow dubbed 'Mini Switzerland of India'."}
+      {
+        "name": "Shimla",
+        "city": "Shimla",
+        "category": "Hill Station",
+        "description": "Former British summer capital with the Mall Road, Ridge and a UNESCO toy train.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Landscape_of_Shimla_%2C_Himachal_Pradesh.jpg/960px-Landscape_of_Shimla_%2C_Himachal_Pradesh.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Landscape_of_Shimla_,_Himachal_Pradesh.jpg",
+          "author": "Navneet Sharma",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://en.wikipedia.org/wiki/Shimla"
+        }
+      },
+      {
+        "name": "Manali & Solang Valley",
+        "city": "Kullu district",
+        "category": "Adventure",
+        "description": "A base for skiing, paragliding and trips over Atal Tunnel to Lahaul.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Manali_City.jpg/960px-Manali_City.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Manali_City.jpg",
+          "author": "Neerajsinghazm",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://en.wikipedia.org/wiki/Manali%2C_Himachal_Pradesh"
+        }
+      },
+      {
+        "name": "McLeod Ganj",
+        "city": "Dharamshala",
+        "category": "Spiritual",
+        "description": "Home of the Dalai Lama and the Tibetan government-in-exile.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/McLeod_Ganj_Dharamkot_Dharmsala_Himachal_Pradesh_India_April_2014.jpg/960px-McLeod_Ganj_Dharamkot_Dharmsala_Himachal_Pradesh_India_April_2014.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:McLeod_Ganj_Dharamkot_Dharmsala_Himachal_Pradesh_India_April_2014.jpg",
+          "author": "Rignam Wangkhang",
+          "license": "CC BY 2.0",
+          "license_url": "https://creativecommons.org/licenses/by/2.0",
+          "source_page": "https://en.wikipedia.org/wiki/McLeod_Ganj"
+        }
+      },
+      {
+        "name": "Spiti Valley",
+        "city": "Lahaul & Spiti",
+        "category": "Adventure",
+        "description": "A cold desert valley with ancient monasteries such as Key and Tabo.",
+        "wiki_title": "Spiti",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Spiti_River_Kaza_Himachal_Jun18_D72_7232.jpg/960px-Spiti_River_Kaza_Himachal_Jun18_D72_7232.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Spiti_River_Kaza_Himachal_Jun18_D72_7232.jpg",
+          "author": "This Photo was taken by Timothy A. Gonsalves.  Feel free to use my photos, but please mention me as the author.  I would much appreciate if you send me an email tagooty@yahoo.com or write on my talk page, for my information.  Please contact me before commercial use.\n\n\n\nPlease do not upload an edited image here without consulting me.  I would like to make corrections only at my own source to ensure that the changes improve the image and are preserved.Otherwise you may upload an edited image with a new name. Please use one of the templates derivative or extract.",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://en.wikipedia.org/wiki/Spiti"
+        }
+      },
+      {
+        "name": "Dalhousie & Khajjiar",
+        "city": "Chamba district",
+        "category": "Hill Station",
+        "description": "Colonial-era hill town and the meadow dubbed 'Mini Switzerland of India'.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Dalhouise_1.jpg/960px-Dalhouise_1.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Dalhouise_1.jpg",
+          "author": "Arkadeep Meta",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://en.wikipedia.org/wiki/Dalhousie%2C_India"
+        }
+      }
     ]
   },
   {
@@ -158,15 +782,85 @@
     "type": "State",
     "capital": "Ranchi",
     "region": "East",
-    "languages": ["Hindi", "Santali"],
+    "languages": [
+      "Hindi",
+      "Santali"
+    ],
     "best_time": "October to March",
     "description": "The 'Land of Forests', known for waterfalls, mineral wealth and tribal heritage.",
     "places": [
-      {"name": "Hundru Falls", "city": "Ranchi", "category": "Nature", "description": "A 98 m waterfall on the Subarnarekha river."},
-      {"name": "Betla National Park", "city": "Latehar", "category": "Wildlife", "description": "Part of Palamau Tiger Reserve, with elephants, bison and an old fort."},
-      {"name": "Baidyanath Dham", "city": "Deoghar", "category": "Spiritual", "description": "One of the twelve Jyotirlingas, crowded during the Shravani Mela."},
-      {"name": "Netarhat", "city": "Latehar", "category": "Hill Station", "description": "The 'Queen of Chotanagpur', famous for its sunrise and sunset views."},
-      {"name": "Parasnath Hill", "city": "Giridih", "category": "Spiritual", "description": "Jharkhand's highest peak and a key Jain pilgrimage site (Shikharji)."}
+      {
+        "name": "Hundru Falls",
+        "city": "Ranchi",
+        "category": "Nature",
+        "description": "A 98 m waterfall on the Subarnarekha river.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Hundru_Falls%2C_Jharkhand%2C_India_4.jpg/960px-Hundru_Falls%2C_Jharkhand%2C_India_4.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Hundru_Falls,_Jharkhand,_India_4.jpg",
+          "author": "Kingshuk Mondal",
+          "license": "CC BY 4.0",
+          "license_url": "https://creativecommons.org/licenses/by/4.0",
+          "source_page": "https://en.wikipedia.org/wiki/Hundru_Falls"
+        }
+      },
+      {
+        "name": "Betla National Park",
+        "city": "Latehar",
+        "category": "Wildlife",
+        "description": "Part of Palamau Tiger Reserve, with elephants, bison and an old fort.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Entrance_of_Betla_national_park.jpg/960px-Entrance_of_Betla_national_park.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Entrance_of_Betla_national_park.jpg",
+          "author": "Marian kispotta",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://en.wikipedia.org/wiki/Betla_National_Park"
+        }
+      },
+      {
+        "name": "Baidyanath Dham",
+        "city": "Deoghar",
+        "category": "Spiritual",
+        "description": "One of the twelve Jyotirlingas, crowded during the Shravani Mela.",
+        "wiki_title": "Baidyanath Temple",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Baidyanath_temple_and_temple_complex%2C_Deoghar_04.jpg/960px-Baidyanath_temple_and_temple_complex%2C_Deoghar_04.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Baidyanath_temple_and_temple_complex,_Deoghar_04.jpg",
+          "author": "Pinakpani",
+          "license": "CC BY 4.0",
+          "license_url": "https://creativecommons.org/licenses/by/4.0",
+          "source_page": "https://en.wikipedia.org/wiki/Baidyanath_Temple"
+        }
+      },
+      {
+        "name": "Netarhat",
+        "city": "Latehar",
+        "category": "Hill Station",
+        "description": "The 'Queen of Chotanagpur', famous for its sunrise and sunset views.",
+        "wiki_title": "Netarhat",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Pine_trees_of_Netarhat_Hill_station.jpg/960px-Pine_trees_of_Netarhat_Hill_station.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Pine_trees_of_Netarhat_Hill_station.jpg",
+          "author": "Flashthomsom",
+          "license": "CC0",
+          "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "source_page": "https://en.wikipedia.org/wiki/Netarhat"
+        }
+      },
+      {
+        "name": "Parasnath Hill",
+        "city": "Giridih",
+        "category": "Spiritual",
+        "description": "Jharkhand's highest peak and a key Jain pilgrimage site (Shikharji).",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Views_of_Shikharji_on_way_to_Anantnatha_Tonk_3.jpg/960px-Views_of_Shikharji_on_way_to_Anantnatha_Tonk_3.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Views_of_Shikharji_on_way_to_Anantnatha_Tonk_3.jpg",
+          "author": "Nizil Shah",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://en.wikipedia.org/wiki/Parasnath"
+        }
+      }
     ]
   },
   {
@@ -175,16 +869,97 @@
     "type": "State",
     "capital": "Bengaluru",
     "region": "South",
-    "languages": ["Kannada"],
+    "languages": [
+      "Kannada"
+    ],
     "best_time": "October to March",
     "description": "A state of royal palaces, ancient ruins, coffee hills and the tech city of Bengaluru.",
     "places": [
-      {"name": "Hampi", "city": "Vijayanagara", "category": "Heritage", "description": "UNESCO-listed ruins of the Vijayanagara capital set in a boulder landscape."},
-      {"name": "Mysore Palace", "city": "Mysuru", "category": "Heritage", "description": "The grand Wadiyar palace, lit by thousands of bulbs during Dasara."},
-      {"name": "Coorg (Kodagu)", "city": "Madikeri", "category": "Hill Station", "description": "Misty coffee country with waterfalls like Abbey Falls."},
-      {"name": "Gokarna", "city": "Uttara Kannada", "category": "Beach", "description": "A temple town with quiet beaches such as Om Beach and Kudle."},
-      {"name": "Bandipur National Park", "city": "Chamarajanagar", "category": "Wildlife", "description": "A tiger reserve that is part of the Nilgiri Biosphere Reserve."},
-      {"name": "Jog Falls", "city": "Shivamogga", "category": "Nature", "description": "A 253 m plunge waterfall, among the highest in India."}
+      {
+        "name": "Hampi",
+        "city": "Vijayanagara",
+        "category": "Heritage",
+        "description": "UNESCO-listed ruins of the Vijayanagara capital set in a boulder landscape.",
+        "wiki_title": "Hampi",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Wide_angle_of_Galigopuram_of_Virupaksha_Temple%2C_Hampi_%2804%29_%28cropped%29.jpg/960px-Wide_angle_of_Galigopuram_of_Virupaksha_Temple%2C_Hampi_%2804%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Wide_angle_of_Galigopuram_of_Virupaksha_Temple,_Hampi_(04)_(cropped).jpg",
+          "author": "iMahesh",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://en.wikipedia.org/wiki/Hampi"
+        }
+      },
+      {
+        "name": "Mysore Palace",
+        "city": "Mysuru",
+        "category": "Heritage",
+        "description": "The grand Wadiyar palace, lit by thousands of bulbs during Dasara.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Mysore_Palace_Morning.jpg/960px-Mysore_Palace_Morning.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Mysore_Palace_Morning.jpg",
+          "author": "Muhammad Mahdi Karim",
+          "license": "GFDL 1.2",
+          "license_url": "http://www.gnu.org/licenses/old-licenses/fdl-1.2.html",
+          "source_page": "https://en.wikipedia.org/wiki/Mysore_Palace"
+        }
+      },
+      {
+        "name": "Coorg (Kodagu)",
+        "city": "Madikeri",
+        "category": "Hill Station",
+        "description": "Misty coffee country with waterfalls like Abbey Falls.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Tadiandamol_Valley%2C_Western_Ghats.jpg/960px-Tadiandamol_Valley%2C_Western_Ghats.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Tadiandamol_Valley,_Western_Ghats.jpg",
+          "author": "Jyotirmoy",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://en.wikipedia.org/wiki/Kodagu_district"
+        }
+      },
+      {
+        "name": "Gokarna",
+        "city": "Uttara Kannada",
+        "category": "Beach",
+        "description": "A temple town with quiet beaches such as Om Beach and Kudle.",
+        "image": {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Delight_india.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Delight_india.jpg",
+          "author": "Aleksriis",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://en.wikipedia.org/wiki/Gokarna%2C_Karnataka"
+        }
+      },
+      {
+        "name": "Bandipur National Park",
+        "city": "Chamarajanagar",
+        "category": "Wildlife",
+        "description": "A tiger reserve that is part of the Nilgiri Biosphere Reserve.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Prince_in_the_Jungle_crop.jpg/960px-Prince_in_the_Jungle_crop.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Prince_in_the_Jungle_crop.jpg",
+          "author": "User:Prasadchangarath",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://en.wikipedia.org/wiki/Bandipur_National_Park"
+        }
+      },
+      {
+        "name": "Jog Falls",
+        "city": "Shivamogga",
+        "category": "Nature",
+        "description": "A 253 m plunge waterfall, among the highest in India.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Jog_Falls_05092016.jpg/960px-Jog_Falls_05092016.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Jog_Falls_05092016.jpg",
+          "author": "Nikhilb239",
+          "license": "CC BY 3.0",
+          "license_url": "https://creativecommons.org/licenses/by/3.0",
+          "source_page": "https://en.wikipedia.org/wiki/Jog_Falls"
+        }
+      }
     ]
   },
   {
@@ -193,15 +968,82 @@
     "type": "State",
     "capital": "Thiruvananthapuram",
     "region": "South",
-    "languages": ["Malayalam"],
+    "languages": [
+      "Malayalam"
+    ],
     "best_time": "September to March",
     "description": "'God's Own Country', with backwaters, beaches, tea hills, Ayurveda and Kathakali.",
     "places": [
-      {"name": "Alleppey Backwaters", "city": "Alappuzha", "category": "Nature", "description": "A network of canals and lagoons best explored on a houseboat."},
-      {"name": "Munnar", "city": "Idukki", "category": "Hill Station", "description": "Rolling tea estates and Eravikulam National Park, home of the Nilgiri tahr."},
-      {"name": "Fort Kochi", "city": "Kochi", "category": "Heritage", "description": "Chinese fishing nets, colonial streets and the Mattancherry Palace."},
-      {"name": "Varkala Beach", "city": "Varkala", "category": "Beach", "description": "A beach below dramatic red cliffs on the Arabian Sea."},
-      {"name": "Periyar Tiger Reserve", "city": "Thekkady", "category": "Wildlife", "description": "A reserve around Periyar Lake, known for elephant sightings by boat."}
+      {
+        "name": "Alleppey Backwaters",
+        "city": "Alappuzha",
+        "category": "Nature",
+        "description": "A network of canals and lagoons best explored on a houseboat.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/House_Boat_DSW.jpg/960px-House_Boat_DSW.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:House_Boat_DSW.jpg",
+          "author": "Augustus Binu : flickr",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source_page": "https://en.wikipedia.org/wiki/Kerala_backwaters"
+        }
+      },
+      {
+        "name": "Munnar",
+        "city": "Idukki",
+        "category": "Hill Station",
+        "description": "Rolling tea estates and Eravikulam National Park, home of the Nilgiri tahr.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Munnar_Overview.jpg/960px-Munnar_Overview.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Munnar_Overview.jpg",
+          "author": "Kondephy",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://en.wikipedia.org/wiki/Munnar"
+        }
+      },
+      {
+        "name": "Fort Kochi",
+        "city": "Kochi",
+        "category": "Heritage",
+        "description": "Chinese fishing nets, colonial streets and the Mattancherry Palace.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Kochi%2C_Fishing_nets_at_sunset%2C_Kerala%2C_India.jpg/960px-Kochi%2C_Fishing_nets_at_sunset%2C_Kerala%2C_India.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Kochi,_Fishing_nets_at_sunset,_Kerala,_India.jpg",
+          "author": "Vyacheslav Argenberg",
+          "license": "CC BY 4.0",
+          "license_url": "https://creativecommons.org/licenses/by/4.0",
+          "source_page": "https://en.wikipedia.org/wiki/Fort_Kochi"
+        }
+      },
+      {
+        "name": "Varkala Beach",
+        "city": "Varkala",
+        "category": "Beach",
+        "description": "A beach below dramatic red cliffs on the Arabian Sea.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Varkala_beach_from_above.jpg/960px-Varkala_beach_from_above.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Varkala_beach_from_above.jpg",
+          "author": "Kondephy",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://en.wikipedia.org/wiki/Varkala_Beach"
+        }
+      },
+      {
+        "name": "Periyar Tiger Reserve",
+        "city": "Thekkady",
+        "category": "Wildlife",
+        "description": "A reserve around Periyar Lake, known for elephant sightings by boat.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Periyar_National_Park.JPG/960px-Periyar_National_Park.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Periyar_National_Park.JPG",
+          "author": "Wouter Hagens",
+          "license": "Public domain",
+          "license_url": "",
+          "source_page": "https://en.wikipedia.org/wiki/Periyar_National_Park"
+        }
+      }
     ]
   },
   {
@@ -210,16 +1052,98 @@
     "type": "State",
     "capital": "Bhopal",
     "region": "Central",
-    "languages": ["Hindi"],
+    "languages": [
+      "Hindi"
+    ],
     "best_time": "October to March",
     "description": "The 'Heart of India', with UNESCO temples, tiger reserves and medieval forts.",
     "places": [
-      {"name": "Khajuraho Temples", "city": "Chhatarpur", "category": "Heritage", "description": "UNESCO-listed Chandela temples known for their intricate sculpture."},
-      {"name": "Kanha National Park", "city": "Mandla", "category": "Wildlife", "description": "Sal forests and meadows that inspired Kipling's The Jungle Book."},
-      {"name": "Bandhavgarh National Park", "city": "Umaria", "category": "Wildlife", "description": "Has one of the highest densities of Bengal tigers in India."},
-      {"name": "Sanchi Stupa", "city": "Raisen", "category": "Heritage", "description": "The Great Stupa commissioned by Emperor Ashoka, a UNESCO site."},
-      {"name": "Mahakaleshwar Temple", "city": "Ujjain", "category": "Spiritual", "description": "A Jyotirlinga temple on the Shipra river, famous for its Bhasma Aarti."},
-      {"name": "Gwalior Fort", "city": "Gwalior", "category": "Heritage", "description": "A massive hilltop fort with palaces and temples."}
+      {
+        "name": "Khajuraho Temples",
+        "city": "Chhatarpur",
+        "category": "Heritage",
+        "description": "UNESCO-listed Chandela temples known for their intricate sculpture.",
+        "wiki_title": "Khajuraho Group of Monuments",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/1_Khajuraho.jpg/960px-1_Khajuraho.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:1_Khajuraho.jpg",
+          "author": "PLBechly",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://en.wikipedia.org/wiki/Khajuraho_Group_of_Monuments"
+        }
+      },
+      {
+        "name": "Kanha National Park",
+        "city": "Mandla",
+        "category": "Wildlife",
+        "description": "Sal forests and meadows that inspired Kipling's The Jungle Book.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Tiger_Kanha_National_Park.jpg/960px-Tiger_Kanha_National_Park.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Tiger_Kanha_National_Park.jpg",
+          "author": "Davidvraju",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://en.wikipedia.org/wiki/Kanha_Tiger_Reserve"
+        }
+      },
+      {
+        "name": "Bandhavgarh National Park",
+        "city": "Umaria",
+        "category": "Wildlife",
+        "description": "Has one of the highest densities of Bengal tigers in India.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Tigress_in_Bandhavgarh_NP.jpg/960px-Tigress_in_Bandhavgarh_NP.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Tigress_in_Bandhavgarh_NP.jpg",
+          "author": "This Image was created by User:Archith.\nIf you would like to use the image please mail me at archithrobber@gmail.com",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source_page": "https://en.wikipedia.org/wiki/Bandhavgarh_National_Park"
+        }
+      },
+      {
+        "name": "Sanchi Stupa",
+        "city": "Raisen",
+        "category": "Heritage",
+        "description": "The Great Stupa commissioned by Emperor Ashoka, a UNESCO site.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/East_Gateway_-_Stupa_1_-_Sanchi_Hill_2013-02-21_4398.JPG/960px-East_Gateway_-_Stupa_1_-_Sanchi_Hill_2013-02-21_4398.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:East_Gateway_-_Stupa_1_-_Sanchi_Hill_2013-02-21_4398.JPG",
+          "author": "Biswarup Ganguly",
+          "license": "CC BY 3.0",
+          "license_url": "https://creativecommons.org/licenses/by/3.0",
+          "source_page": "https://en.wikipedia.org/wiki/Sanchi_Stupa"
+        }
+      },
+      {
+        "name": "Mahakaleshwar Temple",
+        "city": "Ujjain",
+        "category": "Spiritual",
+        "description": "A Jyotirlinga temple on the Shipra river, famous for its Bhasma Aarti.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Mahakaleshwar_Temple%2C_Ujjain.jpg/960px-Mahakaleshwar_Temple%2C_Ujjain.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Mahakaleshwar_Temple,_Ujjain.jpg",
+          "author": "Ashverse",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://en.wikipedia.org/wiki/Mahakaleshwar_Jyotirlinga"
+        }
+      },
+      {
+        "name": "Gwalior Fort",
+        "city": "Gwalior",
+        "category": "Heritage",
+        "description": "A massive hilltop fort with palaces and temples.",
+        "wiki_title": "Gwalior Fort",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Gwalior_Fort_front.jpg/960px-Gwalior_Fort_front.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Gwalior_Fort_front.jpg",
+          "author": "Anuppyr007",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://en.wikipedia.org/wiki/Gwalior_Fort"
+        }
+      }
     ]
   },
   {
@@ -228,16 +1152,98 @@
     "type": "State",
     "capital": "Mumbai",
     "region": "West",
-    "languages": ["Marathi"],
+    "languages": [
+      "Marathi"
+    ],
     "best_time": "October to February",
     "description": "Home to Mumbai, ancient cave temples, Sahyadri forts and the Konkan coast.",
     "places": [
-      {"name": "Gateway of India", "city": "Mumbai", "category": "Urban", "description": "Iconic 1924 arch on the Mumbai waterfront facing the Arabian Sea."},
-      {"name": "Ajanta Caves", "city": "Aurangabad", "category": "Heritage", "description": "UNESCO-listed Buddhist caves with paintings dating back to the 2nd century BCE."},
-      {"name": "Ellora Caves", "city": "Aurangabad", "category": "Heritage", "description": "Hindu, Buddhist and Jain caves, including the rock-cut Kailasa temple."},
-      {"name": "Lonavala & Khandala", "city": "Pune district", "category": "Hill Station", "description": "Monsoon getaways in the Western Ghats with forts and waterfalls."},
-      {"name": "Shirdi", "city": "Ahmednagar", "category": "Spiritual", "description": "The town of Sai Baba, visited by millions of devotees."},
-      {"name": "Tadoba Andhari Tiger Reserve", "city": "Chandrapur", "category": "Wildlife", "description": "Maharashtra's oldest and largest national park, known for tiger sightings."}
+      {
+        "name": "Gateway of India",
+        "city": "Mumbai",
+        "category": "Urban",
+        "description": "Iconic 1924 arch on the Mumbai waterfront facing the Arabian Sea.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Mumbai_03-2016_30_Gateway_of_India.jpg/960px-Mumbai_03-2016_30_Gateway_of_India.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Mumbai_03-2016_30_Gateway_of_India.jpg",
+          "author": "A.Savin",
+          "license": "FAL",
+          "license_url": "http://artlibre.org/licence/lal/en",
+          "source_page": "https://en.wikipedia.org/wiki/Gateway_of_India"
+        }
+      },
+      {
+        "name": "Ajanta Caves",
+        "city": "Aurangabad",
+        "category": "Heritage",
+        "description": "UNESCO-listed Buddhist caves with paintings dating back to the 2nd century BCE.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Ajanta_%2863%29.jpg/960px-Ajanta_%2863%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Ajanta_(63).jpg",
+          "author": "No machine-readable author provided. Soman assumed (based on copyright claims).",
+          "license": "CC BY 2.5",
+          "license_url": "https://creativecommons.org/licenses/by/2.5",
+          "source_page": "https://en.wikipedia.org/wiki/Ajanta_Caves"
+        }
+      },
+      {
+        "name": "Ellora Caves",
+        "city": "Aurangabad",
+        "category": "Heritage",
+        "description": "Hindu, Buddhist and Jain caves, including the rock-cut Kailasa temple.",
+        "wiki_title": "Ellora Caves",
+        "wiki_file": "Ellora Caves, India, Kailasa Temple.jpg",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Ellora_Caves%2C_India%2C_Kailasa_Temple.jpg/960px-Ellora_Caves%2C_India%2C_Kailasa_Temple.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Ellora_Caves,_India,_Kailasa_Temple.jpg",
+          "author": "Vyacheslav Argenberg",
+          "license": "CC BY 4.0",
+          "license_url": "https://creativecommons.org/licenses/by/4.0",
+          "source_page": "https://en.wikipedia.org/wiki/Ellora_Caves"
+        }
+      },
+      {
+        "name": "Lonavala & Khandala",
+        "city": "Pune district",
+        "category": "Hill Station",
+        "description": "Monsoon getaways in the Western Ghats with forts and waterfalls.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Tiger_Valley_Bridge_view_3.jpg/960px-Tiger_Valley_Bridge_view_3.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Tiger_Valley_Bridge_view_3.jpg",
+          "author": "Cppfront",
+          "license": "CC0",
+          "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "source_page": "https://en.wikipedia.org/wiki/Lonavala"
+        }
+      },
+      {
+        "name": "Shirdi",
+        "city": "Ahmednagar",
+        "category": "Spiritual",
+        "description": "The town of Sai Baba, visited by millions of devotees.",
+        "image": {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Sai_baba_samadhi_mandir_.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Sai_baba_samadhi_mandir_.jpg",
+          "author": "Sanskar RM Khatri",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://en.wikipedia.org/wiki/Shirdi"
+        }
+      },
+      {
+        "name": "Tadoba Andhari Tiger Reserve",
+        "city": "Chandrapur",
+        "category": "Wildlife",
+        "description": "Maharashtra's oldest and largest national park, known for tiger sightings.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Panthera_tigris_tigris_Tidoba_20150306.jpg/960px-Panthera_tigris_tigris_Tidoba_20150306.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Panthera_tigris_tigris_Tidoba_20150306.jpg",
+          "author": "Stephenekka",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://en.wikipedia.org/wiki/Tadoba_Andhari_Tiger_Reserve"
+        }
+      }
     ]
   },
   {
@@ -246,15 +1252,84 @@
     "type": "State",
     "capital": "Imphal",
     "region": "Northeast",
-    "languages": ["Meitei (Manipuri)"],
+    "languages": [
+      "Meitei (Manipuri)"
+    ],
     "best_time": "October to April",
     "description": "The 'Jewel of India', known for Loktak Lake, classical Manipuri dance and the sport of polo.",
     "places": [
-      {"name": "Loktak Lake", "city": "Bishnupur", "category": "Lake", "description": "The largest freshwater lake in the Northeast, dotted with floating phumdis."},
-      {"name": "Keibul Lamjao National Park", "city": "Bishnupur", "category": "Wildlife", "description": "The world's only floating national park, home of the sangai deer."},
-      {"name": "Kangla Fort", "city": "Imphal", "category": "Heritage", "description": "Ancient seat of Manipuri kings on the banks of the Imphal river."},
-      {"name": "Ima Keithel", "city": "Imphal", "category": "Urban", "description": "A centuries-old market run entirely by women."},
-      {"name": "Dzukou Valley (Manipur side)", "city": "Senapati", "category": "Adventure", "description": "A trekking valley known for seasonal lilies, shared with Nagaland."}
+      {
+        "name": "Loktak Lake",
+        "city": "Bishnupur",
+        "category": "Lake",
+        "description": "The largest freshwater lake in the Northeast, dotted with floating phumdis.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/The_Loktak_Lake.jpg/960px-The_Loktak_Lake.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:The_Loktak_Lake.jpg",
+          "author": "Sudiptorana",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://en.wikipedia.org/wiki/Loktak_Lake"
+        }
+      },
+      {
+        "name": "Keibul Lamjao National Park",
+        "city": "Bishnupur",
+        "category": "Wildlife",
+        "description": "The world's only floating national park, home of the sangai deer.",
+        "image": {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/CervusEldiAMNH.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "file_page": "https://commons.wikimedia.org/wiki/File:CervusEldiAMNH.jpg",
+          "author": "ideonexus",
+          "license": "CC BY-SA 2.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+          "source_page": "https://en.wikipedia.org/wiki/Keibul_Lamjao_National_Park"
+        }
+      },
+      {
+        "name": "Kangla Fort",
+        "city": "Imphal",
+        "category": "Heritage",
+        "description": "Ancient seat of Manipuri kings on the banks of the Imphal river.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/The_sacred_idols_of_God_Pakhangba_and_his_divine_consort_kept_inside_the_Pakhangba_Temple_in_the_Kangla_Fort_in_Imphal.jpg/960px-The_sacred_idols_of_God_Pakhangba_and_his_divine_consort_kept_inside_the_Pakhangba_Temple_in_the_Kangla_Fort_in_Imphal.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:The_sacred_idols_of_God_Pakhangba_and_his_divine_consort_kept_inside_the_Pakhangba_Temple_in_the_Kangla_Fort_in_Imphal.jpg",
+          "author": "Haoreima",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://en.wikipedia.org/wiki/Kangla_Fort"
+        }
+      },
+      {
+        "name": "Ima Keithel",
+        "city": "Imphal",
+        "category": "Urban",
+        "description": "A centuries-old market run entirely by women.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Imphal%2C_Manipur_%2862%29.jpeg/960px-Imphal%2C_Manipur_%2862%29.jpeg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Imphal,_Manipur_(62).jpeg",
+          "author": "PP Yoonus",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source_page": "https://en.wikipedia.org/wiki/Ima_Market"
+        }
+      },
+      {
+        "name": "Dzukou Valley (Manipur side)",
+        "city": "Senapati",
+        "category": "Adventure",
+        "description": "A trekking valley known for seasonal lilies, shared with Nagaland.",
+        "wiki_title": "Dzukou Valley",
+        "wiki_file": "Breathtaking beauty of Dzukou Valley in Manipur-Nagaland border (edit).jpg",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Breathtaking_beauty_of_Dzukou_Valley_in_Manipur-Nagaland_border_%28edit%29.jpg/960px-Breathtaking_beauty_of_Dzukou_Valley_in_Manipur-Nagaland_border_%28edit%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Breathtaking_beauty_of_Dzukou_Valley_in_Manipur-Nagaland_border_(edit).jpg",
+          "author": "Original:  Samudra Bikash Hazarika\n\nDerivative work:  UnpetitproleX",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://en.wikipedia.org/wiki/Dzukou_Valley"
+        }
+      }
     ]
   },
   {
@@ -263,15 +1338,84 @@
     "type": "State",
     "capital": "Shillong",
     "region": "Northeast",
-    "languages": ["Khasi", "Garo", "English"],
+    "languages": [
+      "Khasi",
+      "Garo",
+      "English"
+    ],
     "best_time": "October to June",
     "description": "The 'Abode of Clouds', with some of the wettest places on Earth, living root bridges and caves.",
     "places": [
-      {"name": "Cherrapunji (Sohra)", "city": "East Khasi Hills", "category": "Nature", "description": "One of the wettest places on Earth, with Nohkalikai Falls."},
-      {"name": "Double Decker Living Root Bridge", "city": "Nongriat", "category": "Adventure", "description": "A two-level bridge grown from rubber tree roots, reached by a steep trek."},
-      {"name": "Dawki & Umngot River", "city": "West Jaintia Hills", "category": "Nature", "description": "A river so clear the boats appear to float in the air."},
-      {"name": "Mawlynnong", "city": "East Khasi Hills", "category": "Nature", "description": "Often called Asia's cleanest village."},
-      {"name": "Shillong", "city": "Shillong", "category": "Hill Station", "description": "The 'Scotland of the East', with Ward's Lake and Shillong Peak."}
+      {
+        "name": "Cherrapunji (Sohra)",
+        "city": "East Khasi Hills",
+        "category": "Nature",
+        "description": "One of the wettest places on Earth, with Nohkalikai Falls.",
+        "image": {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Cherrapunji.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Cherrapunji.jpg",
+          "author": "No machine-readable author provided. RMehra~commonswiki assumed (based on copyright claims).",
+          "license": "CC BY-SA 3.0",
+          "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+          "source_page": "https://en.wikipedia.org/wiki/Cherrapunji"
+        }
+      },
+      {
+        "name": "Double Decker Living Root Bridge",
+        "city": "Nongriat",
+        "category": "Adventure",
+        "description": "A two-level bridge grown from rubber tree roots, reached by a steep trek.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Living_root_bridges%2C_Nongriat_village%2C_Meghalaya2.jpg/960px-Living_root_bridges%2C_Nongriat_village%2C_Meghalaya2.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Living_root_bridges,_Nongriat_village,_Meghalaya2.jpg",
+          "author": "Arshiya Urveeja Bose",
+          "license": "CC BY 2.0",
+          "license_url": "https://creativecommons.org/licenses/by/2.0",
+          "source_page": "https://en.wikipedia.org/wiki/Living_root_bridge"
+        }
+      },
+      {
+        "name": "Dawki & Umngot River",
+        "city": "West Jaintia Hills",
+        "category": "Nature",
+        "description": "A river so clear the boats appear to float in the air.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Dawki_River%2C_Meghalaya.jpg/960px-Dawki_River%2C_Meghalaya.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Dawki_River,_Meghalaya.jpg",
+          "author": "Madhumita Das",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://en.wikipedia.org/wiki/Umngot_River"
+        }
+      },
+      {
+        "name": "Mawlynnong",
+        "city": "East Khasi Hills",
+        "category": "Nature",
+        "description": "Often called Asia's cleanest village.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Mawlynnong_-_Cleanest_village_of_Asia.jpg/960px-Mawlynnong_-_Cleanest_village_of_Asia.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Mawlynnong_-_Cleanest_village_of_Asia.jpg",
+          "author": "Madhumita Das",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://en.wikipedia.org/wiki/Mawlynnong"
+        }
+      },
+      {
+        "name": "Shillong",
+        "city": "Shillong",
+        "category": "Hill Station",
+        "description": "The 'Scotland of the East', with Ward's Lake and Shillong Peak.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Elephant_Falls_II%2C_Shillong.jpg/960px-Elephant_Falls_II%2C_Shillong.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Elephant_Falls_II,_Shillong.jpg",
+          "author": "Prasanta Kr Dutta",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://en.wikipedia.org/wiki/Shillong"
+        }
+      }
     ]
   },
   {
@@ -280,15 +1424,83 @@
     "type": "State",
     "capital": "Aizawl",
     "region": "Northeast",
-    "languages": ["Mizo", "English"],
+    "languages": [
+      "Mizo",
+      "English"
+    ],
     "best_time": "October to March",
     "description": "A hilly state of bamboo forests and rolling ridges, with a strong Mizo culture.",
     "places": [
-      {"name": "Aizawl", "city": "Aizawl", "category": "Hill Station", "description": "A ridge-top capital with Solomon's Temple and lively markets."},
-      {"name": "Phawngpui (Blue Mountain)", "city": "Lawngtlai", "category": "Adventure", "description": "Mizoram's highest peak and a national park."},
-      {"name": "Vantawng Falls", "city": "Serchhip", "category": "Nature", "description": "The highest waterfall in Mizoram, set in dense forest."},
-      {"name": "Reiek Tlang", "city": "Mamit", "category": "Nature", "description": "A hill with traditional Mizo village replicas and panoramic views."},
-      {"name": "Dampa Tiger Reserve", "city": "Mamit", "category": "Wildlife", "description": "The largest wildlife sanctuary in Mizoram."}
+      {
+        "name": "Aizawl",
+        "city": "Aizawl",
+        "category": "Hill Station",
+        "description": "A ridge-top capital with Solomon's Temple and lively markets.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Mizoram_Assembly_House_%28wider_view%29.jpg/960px-Mizoram_Assembly_House_%28wider_view%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Mizoram_Assembly_House_(wider_view).jpg",
+          "author": "GeoEvan (www.polgeonow.com)",
+          "license": "CC BY 4.0",
+          "license_url": "https://creativecommons.org/licenses/by/4.0",
+          "source_page": "https://en.wikipedia.org/wiki/Aizawl"
+        }
+      },
+      {
+        "name": "Phawngpui (Blue Mountain)",
+        "city": "Lawngtlai",
+        "category": "Adventure",
+        "description": "Mizoram's highest peak and a national park.",
+        "image": {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/2007-blue-mtn-farpak.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "file_page": "https://commons.wikimedia.org/wiki/File:2007-blue-mtn-farpak.jpg",
+          "author": "Yathin S Krishnappa",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source_page": "https://en.wikipedia.org/wiki/Phawngpui"
+        }
+      },
+      {
+        "name": "Vantawng Falls",
+        "city": "Serchhip",
+        "category": "Nature",
+        "description": "The highest waterfall in Mizoram, set in dense forest.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Vantawng_Falls_in_1990s.jpg/960px-Vantawng_Falls_in_1990s.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Vantawng_Falls_in_1990s.jpg",
+          "author": "Georgeluvpotato",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://en.wikipedia.org/wiki/Vantawng_Falls"
+        }
+      },
+      {
+        "name": "Reiek Tlang",
+        "city": "Mamit",
+        "category": "Nature",
+        "description": "A hill with traditional Mizo village replicas and panoramic views.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Reiek.JPG/960px-Reiek.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Reiek.JPG",
+          "author": "Coolcolney",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source_page": "https://en.wikipedia.org/wiki/Reiek"
+        }
+      },
+      {
+        "name": "Dampa Tiger Reserve",
+        "city": "Mamit",
+        "category": "Wildlife",
+        "description": "The largest wildlife sanctuary in Mizoram.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Dampa_Tiger_Reserve_Forest.jpg/960px-Dampa_Tiger_Reserve_Forest.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Dampa_Tiger_Reserve_Forest.jpg",
+          "author": "Coolcolney",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source_page": "https://en.wikipedia.org/wiki/Dampa_Tiger_Reserve"
+        }
+      }
     ]
   },
   {
@@ -297,15 +1509,84 @@
     "type": "State",
     "capital": "Kohima",
     "region": "Northeast",
-    "languages": ["English", "Nagamese"],
+    "languages": [
+      "English",
+      "Nagamese"
+    ],
     "best_time": "October to May",
     "description": "Home to 16 major Naga tribes, the Hornbill Festival and dramatic hill landscapes.",
     "places": [
-      {"name": "Kisama Heritage Village", "city": "Kohima", "category": "Heritage", "description": "Venue of the Hornbill Festival every December."},
-      {"name": "Dzukou Valley", "city": "Kohima", "category": "Adventure", "description": "A rolling green valley loved by trekkers, famous for the Dzukou lily."},
-      {"name": "Kohima War Cemetery", "city": "Kohima", "category": "Heritage", "description": "Memorial to soldiers who fell in the 1944 Battle of Kohima."},
-      {"name": "Khonoma", "city": "Kohima", "category": "Nature", "description": "Asia's first green village, known for its conservation efforts."},
-      {"name": "Mokokchung", "city": "Mokokchung", "category": "Heritage", "description": "The cultural centre of the Ao Naga tribe."}
+      {
+        "name": "Kisama Heritage Village",
+        "city": "Kohima",
+        "category": "Heritage",
+        "description": "Venue of the Hornbill Festival every December.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Kisama_main_arena_Hornbill_Festival_2019.jpg/960px-Kisama_main_arena_Hornbill_Festival_2019.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Kisama_main_arena_Hornbill_Festival_2019.jpg",
+          "author": "Aravind Manickam",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://en.wikipedia.org/wiki/Kisama_Heritage_Village"
+        }
+      },
+      {
+        "name": "Dzukou Valley",
+        "city": "Kohima",
+        "category": "Adventure",
+        "description": "A rolling green valley loved by trekkers, famous for the Dzukou lily.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Breathtaking_beauty_of_Dzukou_Valley_in_Manipur-Nagaland_border_%28edit%29.jpg/960px-Breathtaking_beauty_of_Dzukou_Valley_in_Manipur-Nagaland_border_%28edit%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Breathtaking_beauty_of_Dzukou_Valley_in_Manipur-Nagaland_border_(edit).jpg",
+          "author": "Original:  Samudra Bikash Hazarika\n\nDerivative work:  UnpetitproleX",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://en.wikipedia.org/wiki/Dzukou_Valley"
+        }
+      },
+      {
+        "name": "Kohima War Cemetery",
+        "city": "Kohima",
+        "category": "Heritage",
+        "description": "Memorial to soldiers who fell in the 1944 Battle of Kohima.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Cemetery_with_kohima.jpeg/960px-Cemetery_with_kohima.jpeg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Cemetery_with_kohima.jpeg",
+          "author": "PP Yoonus",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source_page": "https://en.wikipedia.org/wiki/Kohima_War_Cemetery"
+        }
+      },
+      {
+        "name": "Khonoma",
+        "city": "Kohima",
+        "category": "Nature",
+        "description": "Asia's first green village, known for its conservation efforts.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/View_of_Khonoma_%282024%29.jpg/960px-View_of_Khonoma_%282024%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:View_of_Khonoma_(2024).jpg",
+          "author": "Ly.n0m",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://en.wikipedia.org/wiki/Khonoma"
+        }
+      },
+      {
+        "name": "Mokokchung",
+        "city": "Mokokchung",
+        "category": "Heritage",
+        "description": "The cultural centre of the Ao Naga tribe.",
+        "wiki_title": "Mokokchung",
+        "image": {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Mokokchung.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Mokokchung.jpg",
+          "author": "User:Wantnothing",
+          "license": "Public domain",
+          "license_url": "",
+          "source_page": "https://en.wikipedia.org/wiki/Mokokchung"
+        }
+      }
     ]
   },
   {
@@ -314,15 +1595,82 @@
     "type": "State",
     "capital": "Bhubaneswar",
     "region": "East",
-    "languages": ["Odia"],
+    "languages": [
+      "Odia"
+    ],
     "best_time": "October to March",
     "description": "A state of Kalinga temple architecture, Odissi dance, lakes and long beaches.",
     "places": [
-      {"name": "Konark Sun Temple", "city": "Konark", "category": "Heritage", "description": "UNESCO-listed 13th-century temple shaped like a giant stone chariot."},
-      {"name": "Jagannath Temple", "city": "Puri", "category": "Spiritual", "description": "One of the Char Dham, famous for the annual Rath Yatra."},
-      {"name": "Chilika Lake", "city": "Khordha/Puri/Ganjam", "category": "Lake", "description": "Asia's largest brackish-water lagoon, home to Irrawaddy dolphins."},
-      {"name": "Lingaraj Temple", "city": "Bhubaneswar", "category": "Spiritual", "description": "An 11th-century temple in the 'Temple City of India'."},
-      {"name": "Simlipal National Park", "city": "Mayurbhanj", "category": "Wildlife", "description": "A tiger reserve with waterfalls such as Barehipani and Joranda."}
+      {
+        "name": "Konark Sun Temple",
+        "city": "Konark",
+        "category": "Heritage",
+        "description": "UNESCO-listed 13th-century temple shaped like a giant stone chariot.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Konarka_Temple.jpg/960px-Konarka_Temple.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Konarka_Temple.jpg",
+          "author": "Subham9423",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://en.wikipedia.org/wiki/Konark_Sun_Temple"
+        }
+      },
+      {
+        "name": "Jagannath Temple",
+        "city": "Puri",
+        "category": "Spiritual",
+        "description": "One of the Char Dham, famous for the annual Rath Yatra.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Shri_Jagannath_temple.jpg/960px-Shri_Jagannath_temple.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Shri_Jagannath_temple.jpg",
+          "author": "Prachites",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source_page": "https://en.wikipedia.org/wiki/Jagannath_Temple%2C_Puri"
+        }
+      },
+      {
+        "name": "Chilika Lake",
+        "city": "Khordha/Puri/Ganjam",
+        "category": "Lake",
+        "description": "Asia's largest brackish-water lagoon, home to Irrawaddy dolphins.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Birds_eyeview_of_Chilika_Lake.jpg/960px-Birds_eyeview_of_Chilika_Lake.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Birds_eyeview_of_Chilika_Lake.jpg",
+          "author": "Government of Odisha",
+          "license": "CC BY 4.0",
+          "license_url": "https://creativecommons.org/licenses/by/4.0",
+          "source_page": "https://en.wikipedia.org/wiki/Chilika_Lake"
+        }
+      },
+      {
+        "name": "Lingaraj Temple",
+        "city": "Bhubaneswar",
+        "category": "Spiritual",
+        "description": "An 11th-century temple in the 'Temple City of India'.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Lingaraj_Temple_%2C_Bhubaneswar.jpg/960px-Lingaraj_Temple_%2C_Bhubaneswar.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Lingaraj_Temple_,_Bhubaneswar.jpg",
+          "author": "Satyakam Parthasarathy",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://en.wikipedia.org/wiki/Lingaraja_Temple"
+        }
+      },
+      {
+        "name": "Simlipal National Park",
+        "city": "Mayurbhanj",
+        "category": "Wildlife",
+        "description": "A tiger reserve with waterfalls such as Barehipani and Joranda.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Simlipal_tiger_reserve.jpg/960px-Simlipal_tiger_reserve.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Simlipal_tiger_reserve.jpg",
+          "author": "Sreejeetmaity1998",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://en.wikipedia.org/wiki/Simlipal_National_Park"
+        }
+      }
     ]
   },
   {
@@ -331,15 +1679,83 @@
     "type": "State",
     "capital": "Chandigarh",
     "region": "North",
-    "languages": ["Punjabi"],
+    "languages": [
+      "Punjabi"
+    ],
     "best_time": "October to March",
     "description": "The land of five rivers, the spiritual centre of Sikhism and famous for its food and hospitality.",
     "places": [
-      {"name": "Golden Temple (Harmandir Sahib)", "city": "Amritsar", "category": "Spiritual", "description": "The holiest Sikh gurdwara, whose langar feeds tens of thousands every day."},
-      {"name": "Wagah-Attari Border", "city": "Amritsar", "category": "Heritage", "description": "Known for the daily flag-lowering ceremony on the India-Pakistan border."},
-      {"name": "Jallianwala Bagh", "city": "Amritsar", "category": "Heritage", "description": "Memorial to the victims of the 1919 massacre."},
-      {"name": "Anandpur Sahib", "city": "Rupnagar", "category": "Spiritual", "description": "Birthplace of the Khalsa, celebrated during Hola Mohalla."},
-      {"name": "Qila Mubarak", "city": "Patiala", "category": "Heritage", "description": "An 18th-century fort complex at the heart of Patiala."}
+      {
+        "name": "Golden Temple (Harmandir Sahib)",
+        "city": "Amritsar",
+        "category": "Spiritual",
+        "description": "The holiest Sikh gurdwara, whose langar feeds tens of thousands every day.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/The_Golden_Temple_of_Amrithsar_7.jpg/960px-The_Golden_Temple_of_Amrithsar_7.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:The_Golden_Temple_of_Amrithsar_7.jpg",
+          "author": "Shagil Kannur",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://en.wikipedia.org/wiki/Golden_Temple"
+        }
+      },
+      {
+        "name": "Wagah-Attari Border",
+        "city": "Amritsar",
+        "category": "Heritage",
+        "description": "Known for the daily flag-lowering ceremony on the India-Pakistan border.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/The_SAARC_Car_Rally_2007_being_welcomed_by_traditional_Drummers_at_the_Wagah_Border_on_March_28%2C_2007.jpg/960px-The_SAARC_Car_Rally_2007_being_welcomed_by_traditional_Drummers_at_the_Wagah_Border_on_March_28%2C_2007.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:The_SAARC_Car_Rally_2007_being_welcomed_by_traditional_Drummers_at_the_Wagah_Border_on_March_28,_2007.jpg",
+          "author": "Ministry of External Affairs",
+          "license": "GODL-India",
+          "license_url": "https://data.gov.in/sites/default/files/Gazette_Notification_OGDL.pdf",
+          "source_page": "https://en.wikipedia.org/wiki/Attari%E2%80%93Wagah_border_ceremony"
+        }
+      },
+      {
+        "name": "Jallianwala Bagh",
+        "city": "Amritsar",
+        "category": "Heritage",
+        "description": "Memorial to the victims of the 1919 massacre.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Jallianwala_Bagh%2C_Amritsar_01.jpg/960px-Jallianwala_Bagh%2C_Amritsar_01.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Jallianwala_Bagh,_Amritsar_01.jpg",
+          "author": "Bernard Gagnon",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://en.wikipedia.org/wiki/Jallianwala_Bagh"
+        }
+      },
+      {
+        "name": "Anandpur Sahib",
+        "city": "Rupnagar",
+        "category": "Spiritual",
+        "description": "Birthplace of the Khalsa, celebrated during Hola Mohalla.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/1_Sri_Kesgarh_Takhat_Anandpur_Sahib_Khalsa_birthplace_Punjab_India.jpg/960px-1_Sri_Kesgarh_Takhat_Anandpur_Sahib_Khalsa_birthplace_Punjab_India.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:1_Sri_Kesgarh_Takhat_Anandpur_Sahib_Khalsa_birthplace_Punjab_India.jpg",
+          "author": "Ms Sarah Welch",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://en.wikipedia.org/wiki/Anandpur_Sahib"
+        }
+      },
+      {
+        "name": "Qila Mubarak",
+        "city": "Patiala",
+        "category": "Heritage",
+        "description": "An 18th-century fort complex at the heart of Patiala.",
+        "wiki_title": "Qila Mubarak, Patiala",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Qila_Mubarak%2C_Patiala.jpg/960px-Qila_Mubarak%2C_Patiala.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Qila_Mubarak,_Patiala.jpg",
+          "author": "Journojp",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://en.wikipedia.org/wiki/Qila_Mubarak%2C_Patiala"
+        }
+      }
     ]
   },
   {
@@ -348,16 +1764,98 @@
     "type": "State",
     "capital": "Jaipur",
     "region": "North",
-    "languages": ["Hindi", "Rajasthani"],
+    "languages": [
+      "Hindi",
+      "Rajasthani"
+    ],
     "best_time": "October to March",
     "description": "The 'Land of Kings', with desert forts, palaces, lakes and colourful festivals.",
     "places": [
-      {"name": "Amber Fort", "city": "Jaipur", "category": "Heritage", "description": "A hilltop Rajput fort-palace with the mirror-walled Sheesh Mahal."},
-      {"name": "Hawa Mahal", "city": "Jaipur", "category": "Heritage", "description": "The 'Palace of Winds' with 953 small latticed windows."},
-      {"name": "Lake Pichola & City Palace", "city": "Udaipur", "category": "Lake", "description": "The romantic heart of the 'City of Lakes'."},
-      {"name": "Jaisalmer Fort & Sam Dunes", "city": "Jaisalmer", "category": "Adventure", "description": "A living sandstone fort and camel safaris in the Thar Desert."},
-      {"name": "Mehrangarh Fort", "city": "Jodhpur", "category": "Heritage", "description": "A towering fort above the 'Blue City'."},
-      {"name": "Ranthambore National Park", "city": "Sawai Madhopur", "category": "Wildlife", "description": "Tigers roaming among the ruins of a 10th-century fort."}
+      {
+        "name": "Amber Fort",
+        "city": "Jaipur",
+        "category": "Heritage",
+        "description": "A hilltop Rajput fort-palace with the mirror-walled Sheesh Mahal.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/20191219_Fort_Amber%2C_Amer%2C_Jaipur_0955_9481.jpg/960px-20191219_Fort_Amber%2C_Amer%2C_Jaipur_0955_9481.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:20191219_Fort_Amber,_Amer,_Jaipur_0955_9481.jpg",
+          "author": "Jakub Hałun",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://en.wikipedia.org/wiki/Amber_Fort"
+        }
+      },
+      {
+        "name": "Hawa Mahal",
+        "city": "Jaipur",
+        "category": "Heritage",
+        "description": "The 'Palace of Winds' with 953 small latticed windows.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/East_facade_Hawa_Mahal_Jaipur_from_ground_level_%28July_2022%29_-_img_01.jpg/960px-East_facade_Hawa_Mahal_Jaipur_from_ground_level_%28July_2022%29_-_img_01.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:East_facade_Hawa_Mahal_Jaipur_from_ground_level_(July_2022)_-_img_01.jpg",
+          "author": "Chainwit.",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://en.wikipedia.org/wiki/Hawa_Mahal"
+        }
+      },
+      {
+        "name": "Lake Pichola & City Palace",
+        "city": "Udaipur",
+        "category": "Lake",
+        "description": "The romantic heart of the 'City of Lakes'.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Udaipur_Lake_India.JPG/960px-Udaipur_Lake_India.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Udaipur_Lake_India.JPG",
+          "author": "Uri Sittan Tripo",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source_page": "https://en.wikipedia.org/wiki/Lake_Pichola"
+        }
+      },
+      {
+        "name": "Jaisalmer Fort & Sam Dunes",
+        "city": "Jaisalmer",
+        "category": "Adventure",
+        "description": "A living sandstone fort and camel safaris in the Thar Desert.",
+        "wiki_title": "Jaisalmer Fort",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Jaisalmer_forteresse.jpg/960px-Jaisalmer_forteresse.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Jaisalmer_forteresse.jpg",
+          "author": "Gérard Janot",
+          "license": "CC BY-SA 3.0",
+          "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+          "source_page": "https://en.wikipedia.org/wiki/Jaisalmer_Fort"
+        }
+      },
+      {
+        "name": "Mehrangarh Fort",
+        "city": "Jodhpur",
+        "category": "Heritage",
+        "description": "A towering fort above the 'Blue City'.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Mehrangarh_Fort_sanhita.jpg/960px-Mehrangarh_Fort_sanhita.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Mehrangarh_Fort_sanhita.jpg",
+          "author": "Sanhitasinha",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://en.wikipedia.org/wiki/Mehrangarh"
+        }
+      },
+      {
+        "name": "Ranthambore National Park",
+        "city": "Sawai Madhopur",
+        "category": "Wildlife",
+        "description": "Tigers roaming among the ruins of a 10th-century fort.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Ranthambore_National_Park.JPG/960px-Ranthambore_National_Park.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Ranthambore_National_Park.JPG",
+          "author": "THerrington",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source_page": "https://en.wikipedia.org/wiki/Ranthambore_National_Park"
+        }
+      }
     ]
   },
   {
@@ -366,15 +1864,85 @@
     "type": "State",
     "capital": "Gangtok",
     "region": "Northeast",
-    "languages": ["Nepali", "Sikkimese", "Lepcha", "English"],
+    "languages": [
+      "Nepali",
+      "Sikkimese",
+      "Lepcha",
+      "English"
+    ],
     "best_time": "March to May, October to December",
     "description": "A small Himalayan state with views of Kangchenjunga, Buddhist monasteries and fully organic farming.",
     "places": [
-      {"name": "Tsomgo (Changu) Lake", "city": "East Sikkim", "category": "Lake", "description": "A glacial lake at 3,753 m that freezes in winter."},
-      {"name": "Nathula Pass", "city": "East Sikkim", "category": "Adventure", "description": "A historic Silk Route pass on the India-China border."},
-      {"name": "Yumthang Valley", "city": "North Sikkim", "category": "Nature", "description": "The 'Valley of Flowers', bright with rhododendrons in spring."},
-      {"name": "Rumtek Monastery", "city": "Gangtok", "category": "Spiritual", "description": "The largest monastery in Sikkim and seat of the Karma Kagyu lineage."},
-      {"name": "Pelling", "city": "West Sikkim", "category": "Hill Station", "description": "Close-up views of Kangchenjunga and the Pemayangtse Monastery."}
+      {
+        "name": "Tsomgo (Changu) Lake",
+        "city": "East Sikkim",
+        "category": "Lake",
+        "description": "A glacial lake at 3,753 m that freezes in winter.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Tsongmo_Lake_or_Changu_Lake_-_East_Sikkim.jpg/960px-Tsongmo_Lake_or_Changu_Lake_-_East_Sikkim.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Tsongmo_Lake_or_Changu_Lake_-_East_Sikkim.jpg",
+          "author": "Indrajit Das",
+          "license": "CC BY 3.0",
+          "license_url": "https://creativecommons.org/licenses/by/3.0",
+          "source_page": "https://en.wikipedia.org/wiki/Lake_Tsomgo"
+        }
+      },
+      {
+        "name": "Nathula Pass",
+        "city": "East Sikkim",
+        "category": "Adventure",
+        "description": "A historic Silk Route pass on the India-China border.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Location_of_Nathula.svg/960px-Location_of_Nathula.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Location_of_Nathula.svg",
+          "author": "Nichalp at English Wikipedia",
+          "license": "CC BY 2.5",
+          "license_url": "https://creativecommons.org/licenses/by/2.5",
+          "source_page": "https://en.wikipedia.org/wiki/Nathu_La"
+        }
+      },
+      {
+        "name": "Yumthang Valley",
+        "city": "North Sikkim",
+        "category": "Nature",
+        "description": "The 'Valley of Flowers', bright with rhododendrons in spring.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Yumthang_valley%2C_Lachung_Sikkim_India_2012.jpg/960px-Yumthang_valley%2C_Lachung_Sikkim_India_2012.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Yumthang_valley,_Lachung_Sikkim_India_2012.jpg",
+          "author": "Joginder Pathak",
+          "license": "CC BY-SA 2.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+          "source_page": "https://en.wikipedia.org/wiki/Yumthang_Valley_of_Flowers"
+        }
+      },
+      {
+        "name": "Rumtek Monastery",
+        "city": "Gangtok",
+        "category": "Spiritual",
+        "description": "The largest monastery in Sikkim and seat of the Karma Kagyu lineage.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Rumtek_Monastery_alias_Dharma_Chakra_Centre_near_Gangtok%2C_East_Sikkim_09.jpg/960px-Rumtek_Monastery_alias_Dharma_Chakra_Centre_near_Gangtok%2C_East_Sikkim_09.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Rumtek_Monastery_alias_Dharma_Chakra_Centre_near_Gangtok,_East_Sikkim_09.jpg",
+          "author": "Anjan Kumar Kundu",
+          "license": "CC BY 4.0",
+          "license_url": "https://creativecommons.org/licenses/by/4.0",
+          "source_page": "https://en.wikipedia.org/wiki/Rumtek_Monastery"
+        }
+      },
+      {
+        "name": "Pelling",
+        "city": "West Sikkim",
+        "category": "Hill Station",
+        "description": "Close-up views of Kangchenjunga and the Pemayangtse Monastery.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Sunrise_over_Kangchenjunga.jpg/960px-Sunrise_over_Kangchenjunga.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Sunrise_over_Kangchenjunga.jpg",
+          "author": "Santanu Paul",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://en.wikipedia.org/wiki/Pelling"
+        }
+      }
     ]
   },
   {
@@ -383,16 +1951,97 @@
     "type": "State",
     "capital": "Chennai",
     "region": "South",
-    "languages": ["Tamil"],
+    "languages": [
+      "Tamil"
+    ],
     "best_time": "November to March",
     "description": "Land of towering Dravidian temples, classical Bharatanatyam, hill stations and a long coastline.",
     "places": [
-      {"name": "Meenakshi Amman Temple", "city": "Madurai", "category": "Spiritual", "description": "A vast temple complex with 14 colourful gopurams."},
-      {"name": "Mahabalipuram", "city": "Chengalpattu", "category": "Heritage", "description": "UNESCO-listed Pallava monuments including the Shore Temple."},
-      {"name": "Ooty", "city": "Nilgiris", "category": "Hill Station", "description": "The 'Queen of Hill Stations', reached by the UNESCO Nilgiri Mountain Railway."},
-      {"name": "Brihadeeswarar Temple", "city": "Thanjavur", "category": "Heritage", "description": "A Chola masterpiece from 1010 CE and a UNESCO site."},
-      {"name": "Rameswaram", "city": "Ramanathapuram", "category": "Spiritual", "description": "A Char Dham island temple town linked by the Pamban Bridge."},
-      {"name": "Kanyakumari", "city": "Kanyakumari", "category": "Beach", "description": "The southern tip of India, where three seas meet, with the Vivekananda Rock Memorial."}
+      {
+        "name": "Meenakshi Amman Temple",
+        "city": "Madurai",
+        "category": "Spiritual",
+        "description": "A vast temple complex with 14 colourful gopurams.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/An_aerial_view_of_Madurai_city_from_atop_of_Meenakshi_Amman_temple.jpg/960px-An_aerial_view_of_Madurai_city_from_atop_of_Meenakshi_Amman_temple.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:An_aerial_view_of_Madurai_city_from_atop_of_Meenakshi_Amman_temple.jpg",
+          "author": "எஸ்ஸார்",
+          "license": "CC BY 3.0",
+          "license_url": "https://creativecommons.org/licenses/by/3.0",
+          "source_page": "https://en.wikipedia.org/wiki/Meenakshi_Temple"
+        }
+      },
+      {
+        "name": "Mahabalipuram",
+        "city": "Chengalpattu",
+        "category": "Heritage",
+        "description": "UNESCO-listed Pallava monuments including the Shore Temple.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/A_collage_of_Mamallapuram_town_Tamil_Nadu_India.jpg/960px-A_collage_of_Mamallapuram_town_Tamil_Nadu_India.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:A_collage_of_Mamallapuram_town_Tamil_Nadu_India.jpg",
+          "author": "Ms Sarah Welch",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://en.wikipedia.org/wiki/Mamallapuram"
+        }
+      },
+      {
+        "name": "Ooty",
+        "city": "Nilgiris",
+        "category": "Hill Station",
+        "description": "The 'Queen of Hill Stations', reached by the UNESCO Nilgiri Mountain Railway.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Ooty_lake.jpg/960px-Ooty_lake.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Ooty_lake.jpg",
+          "author": "Vinayaraj",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source_page": "https://en.wikipedia.org/wiki/Ooty"
+        }
+      },
+      {
+        "name": "Brihadeeswarar Temple",
+        "city": "Thanjavur",
+        "category": "Heritage",
+        "description": "A Chola masterpiece from 1010 CE and a UNESCO site.",
+        "wiki_title": "Brihadisvara Temple",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Brihadisvara_Temple_during_Maha_Shivaratri-WUS03611_%28edit%29.jpg/960px-Brihadisvara_Temple_during_Maha_Shivaratri-WUS03611_%28edit%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Brihadisvara_Temple_during_Maha_Shivaratri-WUS03611_(edit).jpg",
+          "author": "Original:  Rainer Halama\nDerivative work:  UnpetitproleX",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://en.wikipedia.org/wiki/Brihadisvara_Temple"
+        }
+      },
+      {
+        "name": "Rameswaram",
+        "city": "Ramanathapuram",
+        "category": "Spiritual",
+        "description": "A Char Dham island temple town linked by the Pamban Bridge.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Rameswaram_Morning.jpg/960px-Rameswaram_Morning.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Rameswaram_Morning.jpg",
+          "author": "Prasanth C7",
+          "license": "CC0",
+          "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "source_page": "https://en.wikipedia.org/wiki/Rameswaram"
+        }
+      },
+      {
+        "name": "Kanyakumari",
+        "city": "Kanyakumari",
+        "category": "Beach",
+        "description": "The southern tip of India, where three seas meet, with the Vivekananda Rock Memorial.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Vivekananda_Rock_Memorial%2C_Kanyakumari.jpg/960px-Vivekananda_Rock_Memorial%2C_Kanyakumari.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Vivekananda_Rock_Memorial,_Kanyakumari.jpg",
+          "author": "Ravivg5",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source_page": "https://en.wikipedia.org/wiki/Kanyakumari"
+        }
+      }
     ]
   },
   {
@@ -401,15 +2050,83 @@
     "type": "State",
     "capital": "Hyderabad",
     "region": "South",
-    "languages": ["Telugu", "Urdu"],
+    "languages": [
+      "Telugu",
+      "Urdu"
+    ],
     "best_time": "October to March",
     "description": "India's youngest state, with Nizam heritage, Kakatiya temples and famous Hyderabadi biryani.",
     "places": [
-      {"name": "Charminar", "city": "Hyderabad", "category": "Heritage", "description": "The 1591 monument at the centre of old Hyderabad's bazaars."},
-      {"name": "Golconda Fort", "city": "Hyderabad", "category": "Heritage", "description": "A fort famed for its acoustics and once the centre of the diamond trade."},
-      {"name": "Ramappa Temple", "city": "Mulugu", "category": "Heritage", "description": "A UNESCO-listed Kakatiya temple built with floating bricks."},
-      {"name": "Ramoji Film City", "city": "Hyderabad", "category": "Urban", "description": "One of the world's largest film studio complexes."},
-      {"name": "Warangal Fort", "city": "Warangal", "category": "Heritage", "description": "Kakatiya-era ruins with the iconic Kirti Toranas gateways."}
+      {
+        "name": "Charminar",
+        "city": "Hyderabad",
+        "category": "Heritage",
+        "description": "The 1591 monument at the centre of old Hyderabad's bazaars.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Charminar_Hyderabad_1.jpg/960px-Charminar_Hyderabad_1.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Charminar_Hyderabad_1.jpg",
+          "author": "DidierTais",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source_page": "https://en.wikipedia.org/wiki/Charminar"
+        }
+      },
+      {
+        "name": "Golconda Fort",
+        "city": "Hyderabad",
+        "category": "Heritage",
+        "description": "A fort famed for its acoustics and once the centre of the diamond trade.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Golconda_Fort_005.jpg/960px-Golconda_Fort_005.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Golconda_Fort_005.jpg",
+          "author": "Bernard Gagnon",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source_page": "https://en.wikipedia.org/wiki/Golconda"
+        }
+      },
+      {
+        "name": "Ramappa Temple",
+        "city": "Mulugu",
+        "category": "Heritage",
+        "description": "A UNESCO-listed Kakatiya temple built with floating bricks.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Ramappa_Temple_%28Human_Scale%29.jpg/960px-Ramappa_Temple_%28Human_Scale%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Ramappa_Temple_(Human_Scale).jpg",
+          "author": "Nirav Lad",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://en.wikipedia.org/wiki/Ramappa_Temple"
+        }
+      },
+      {
+        "name": "Ramoji Film City",
+        "city": "Hyderabad",
+        "category": "Urban",
+        "description": "One of the world's largest film studio complexes.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Ramoji_Film_City.jpg/960px-Ramoji_Film_City.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Ramoji_Film_City.jpg",
+          "author": "Shillika",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source_page": "https://en.wikipedia.org/wiki/Ramoji_Film_City"
+        }
+      },
+      {
+        "name": "Warangal Fort",
+        "city": "Warangal",
+        "category": "Heritage",
+        "description": "Kakatiya-era ruins with the iconic Kirti Toranas gateways.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Shiv_Linga_at_Warangal_Fort_Complex.jpg/960px-Shiv_Linga_at_Warangal_Fort_Complex.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Shiv_Linga_at_Warangal_Fort_Complex.jpg",
+          "author": "Arnav chatterjee",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://en.wikipedia.org/wiki/Warangal_Fort"
+        }
+      }
     ]
   },
   {
@@ -418,15 +2135,84 @@
     "type": "State",
     "capital": "Agartala",
     "region": "Northeast",
-    "languages": ["Bengali", "Kokborok"],
+    "languages": [
+      "Bengali",
+      "Kokborok"
+    ],
     "best_time": "October to March",
     "description": "A small hilly state with royal palaces, rock carvings and bamboo crafts.",
     "places": [
-      {"name": "Ujjayanta Palace", "city": "Agartala", "category": "Heritage", "description": "The former royal palace, now the Tripura State Museum."},
-      {"name": "Neermahal", "city": "Melaghar", "category": "Heritage", "description": "A water palace in the middle of Rudrasagar Lake."},
-      {"name": "Unakoti", "city": "Kailashahar", "category": "Heritage", "description": "Giant rock-cut reliefs of Shiva and other deities from the 7th–9th centuries."},
-      {"name": "Tripura Sundari Temple", "city": "Udaipur (Tripura)", "category": "Spiritual", "description": "One of the 51 Shakti Peethas."},
-      {"name": "Jampui Hills", "city": "North Tripura", "category": "Hill Station", "description": "Orange orchards and views across to Bangladesh and Mizoram."}
+      {
+        "name": "Ujjayanta Palace",
+        "city": "Agartala",
+        "category": "Heritage",
+        "description": "The former royal palace, now the Tripura State Museum.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Ujjayanta_palace_Tripura_State_Museum_Agartala_India.jpg/960px-Ujjayanta_palace_Tripura_State_Museum_Agartala_India.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Ujjayanta_palace_Tripura_State_Museum_Agartala_India.jpg",
+          "author": "Sharada Prasad CS",
+          "license": "CC BY 2.0",
+          "license_url": "https://creativecommons.org/licenses/by/2.0",
+          "source_page": "https://en.wikipedia.org/wiki/Ujjayanta_Palace"
+        }
+      },
+      {
+        "name": "Neermahal",
+        "city": "Melaghar",
+        "category": "Heritage",
+        "description": "A water palace in the middle of Rudrasagar Lake.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Neer_Mahal%2C_the_water_palace_of_Tripura_02.jpg/960px-Neer_Mahal%2C_the_water_palace_of_Tripura_02.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Neer_Mahal,_the_water_palace_of_Tripura_02.jpg",
+          "author": "Kingshuk Mondal",
+          "license": "CC BY 4.0",
+          "license_url": "https://creativecommons.org/licenses/by/4.0",
+          "source_page": "https://en.wikipedia.org/wiki/Neermahal"
+        }
+      },
+      {
+        "name": "Unakoti",
+        "city": "Kailashahar",
+        "category": "Heritage",
+        "description": "Giant rock-cut reliefs of Shiva and other deities from the 7th–9th centuries.",
+        "wiki_title": "Unakoti",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Unakoti_3.jpg/960px-Unakoti_3.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Unakoti_3.jpg",
+          "author": "Barunghosh",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://en.wikipedia.org/wiki/Unakoti"
+        }
+      },
+      {
+        "name": "Tripura Sundari Temple",
+        "city": "Udaipur (Tripura)",
+        "category": "Spiritual",
+        "description": "One of the 51 Shakti Peethas.",
+        "image": {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/30/Lalita_sm.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Lalita_sm.JPG",
+          "author": "Print appears signed in lower right corner, but name illegible.",
+          "license": "Public domain",
+          "license_url": "",
+          "source_page": "https://en.wikipedia.org/wiki/Tripura_Sundari"
+        }
+      },
+      {
+        "name": "Jampui Hills",
+        "city": "North Tripura",
+        "category": "Hill Station",
+        "description": "Orange orchards and views across to Bangladesh and Mizoram.",
+        "image": {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/A_view_of_Jampui_Hills_in_the_East_from_the_plains_of_Kanchanpur.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "file_page": "https://commons.wikimedia.org/wiki/File:A_view_of_Jampui_Hills_in_the_East_from_the_plains_of_Kanchanpur.jpg",
+          "author": "Tlinga",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source_page": "https://en.wikipedia.org/wiki/Jampui_Hills"
+        }
+      }
     ]
   },
   {
@@ -435,16 +2221,100 @@
     "type": "State",
     "capital": "Lucknow",
     "region": "North",
-    "languages": ["Hindi", "Urdu"],
+    "languages": [
+      "Hindi",
+      "Urdu"
+    ],
     "best_time": "October to March",
     "description": "India's most populous state, home to the Taj Mahal, Varanasi and the Ganga-Yamuna plains.",
     "places": [
-      {"name": "Taj Mahal", "city": "Agra", "category": "Heritage", "description": "The white marble mausoleum and one of the New Seven Wonders of the World."},
-      {"name": "Varanasi Ghats", "city": "Varanasi", "category": "Spiritual", "description": "One of the world's oldest living cities, known for the Ganga Aarti."},
-      {"name": "Fatehpur Sikri", "city": "Agra", "category": "Heritage", "description": "Akbar's abandoned red sandstone capital, a UNESCO site."},
-      {"name": "Sarnath", "city": "Varanasi", "category": "Spiritual", "description": "Where the Buddha gave his first sermon."},
-      {"name": "Ram Janmabhoomi, Ayodhya", "city": "Ayodhya", "category": "Spiritual", "description": "The revered birthplace of Lord Rama, with the new Ram Mandir."},
-      {"name": "Bara Imambara", "city": "Lucknow", "category": "Heritage", "description": "An 18th-century complex with the Bhool Bhulaiya labyrinth."}
+      {
+        "name": "Taj Mahal",
+        "city": "Agra",
+        "category": "Heritage",
+        "description": "The white marble mausoleum and one of the New Seven Wonders of the World.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Taj_Mahal_%28Edited%29.jpeg/960px-Taj_Mahal_%28Edited%29.jpeg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Taj_Mahal_(Edited).jpeg",
+          "author": "Yann; edited by Jim Carter",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://en.wikipedia.org/wiki/Taj_Mahal"
+        }
+      },
+      {
+        "name": "Varanasi Ghats",
+        "city": "Varanasi",
+        "category": "Spiritual",
+        "description": "One of the world's oldest living cities, known for the Ganga Aarti.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Ahilya_Ghat_by_the_Ganges%2C_Varanasi.jpg/960px-Ahilya_Ghat_by_the_Ganges%2C_Varanasi.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Ahilya_Ghat_by_the_Ganges,_Varanasi.jpg",
+          "author": "Ken Wieland",
+          "license": "CC BY-SA 2.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+          "source_page": "https://en.wikipedia.org/wiki/Ghats_in_Varanasi"
+        }
+      },
+      {
+        "name": "Fatehpur Sikri",
+        "city": "Agra",
+        "category": "Heritage",
+        "description": "Akbar's abandoned red sandstone capital, a UNESCO site.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Fatehput_Sikiri_Buland_Darwaza_gate_2010.jpg/960px-Fatehput_Sikiri_Buland_Darwaza_gate_2010.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Fatehput_Sikiri_Buland_Darwaza_gate_2010.jpg",
+          "author": "Marcin Białek",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source_page": "https://en.wikipedia.org/wiki/Fatehpur_Sikri"
+        }
+      },
+      {
+        "name": "Sarnath",
+        "city": "Varanasi",
+        "category": "Spiritual",
+        "description": "Where the Buddha gave his first sermon.",
+        "wiki_title": "Sarnath",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Ancient_Buddhist_monasteries_near_Dhamekh_Stupa_Monument_Site%2C_Sarnath.jpg/960px-Ancient_Buddhist_monasteries_near_Dhamekh_Stupa_Monument_Site%2C_Sarnath.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Ancient_Buddhist_monasteries_near_Dhamekh_Stupa_Monument_Site,_Sarnath.jpg",
+          "author": "Yusuke Kawasaki",
+          "license": "CC BY 2.0",
+          "license_url": "https://creativecommons.org/licenses/by/2.0",
+          "source_page": "https://en.wikipedia.org/wiki/Sarnath"
+        }
+      },
+      {
+        "name": "Ram Janmabhoomi, Ayodhya",
+        "city": "Ayodhya",
+        "category": "Spiritual",
+        "description": "The revered birthplace of Lord Rama, with the new Ram Mandir.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Shri_Ram_Janambhoomi_Mandir%2C_Ayodhya_Dham.jpg/960px-Shri_Ram_Janambhoomi_Mandir%2C_Ayodhya_Dham.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Shri_Ram_Janambhoomi_Mandir,_Ayodhya_Dham.jpg",
+          "author": "Prime Minister's Office",
+          "license": "GODL-India",
+          "license_url": "https://data.gov.in/sites/default/files/Gazette_Notification_OGDL.pdf",
+          "source_page": "https://en.wikipedia.org/wiki/Ram_Mandir"
+        }
+      },
+      {
+        "name": "Bara Imambara",
+        "city": "Lucknow",
+        "category": "Heritage",
+        "description": "An 18th-century complex with the Bhool Bhulaiya labyrinth.",
+        "wiki_title": "Bara Imambara",
+        "wiki_file": "Bara Imambara Lucknow.jpg",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Bara_Imambara_Lucknow.jpg/960px-Bara_Imambara_Lucknow.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Bara_Imambara_Lucknow.jpg",
+          "author": "Muhammad Mahdi Karim",
+          "license": "GFDL 1.2",
+          "license_url": "http://www.gnu.org/licenses/old-licenses/fdl-1.2.html",
+          "source_page": "https://en.wikipedia.org/wiki/Bara_Imambara"
+        }
+      }
     ]
   },
   {
@@ -453,16 +2323,99 @@
     "type": "State",
     "capital": "Dehradun (winter), Gairsain (summer)",
     "region": "North",
-    "languages": ["Hindi", "Garhwali", "Kumaoni"],
+    "languages": [
+      "Hindi",
+      "Garhwali",
+      "Kumaoni"
+    ],
     "best_time": "March to June, September to November",
     "description": "'Devbhoomi', the land of the gods, with the Char Dham, Himalayan treks and hill stations.",
     "places": [
-      {"name": "Rishikesh", "city": "Dehradun district", "category": "Adventure", "description": "The yoga capital of the world, also known for white-water rafting."},
-      {"name": "Haridwar", "city": "Haridwar", "category": "Spiritual", "description": "A holy city where the Ganga leaves the mountains, famous for Har Ki Pauri."},
-      {"name": "Kedarnath Temple", "city": "Rudraprayag", "category": "Spiritual", "description": "A high-altitude Jyotirlinga temple and one of the Char Dham."},
-      {"name": "Nainital", "city": "Nainital", "category": "Hill Station", "description": "A lake town set around the eye-shaped Naini Lake."},
-      {"name": "Jim Corbett National Park", "city": "Nainital/Pauri", "category": "Wildlife", "description": "India's oldest national park, established in 1936."},
-      {"name": "Valley of Flowers", "city": "Chamoli", "category": "Nature", "description": "A UNESCO-listed alpine valley in bloom during the monsoon."}
+      {
+        "name": "Rishikesh",
+        "city": "Dehradun district",
+        "category": "Adventure",
+        "description": "The yoga capital of the world, also known for white-water rafting.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Trayambakeshwar_Temple_VK.jpg/960px-Trayambakeshwar_Temple_VK.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Trayambakeshwar_Temple_VK.jpg",
+          "author": "VK1983",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://en.wikipedia.org/wiki/Rishikesh"
+        }
+      },
+      {
+        "name": "Haridwar",
+        "city": "Haridwar",
+        "category": "Spiritual",
+        "description": "A holy city where the Ganga leaves the mountains, famous for Har Ki Pauri.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Ganga_aarti_haridwar_01.jpg/960px-Ganga_aarti_haridwar_01.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Ganga_aarti_haridwar_01.jpg",
+          "author": "pavankunar",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://en.wikipedia.org/wiki/Haridwar"
+        }
+      },
+      {
+        "name": "Kedarnath Temple",
+        "city": "Rudraprayag",
+        "category": "Spiritual",
+        "description": "A high-altitude Jyotirlinga temple and one of the Char Dham.",
+        "image": {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Kedarnath_View1.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Kedarnath_View1.jpg",
+          "author": "Samadolfo",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source_page": "https://en.wikipedia.org/wiki/Kedarnath"
+        }
+      },
+      {
+        "name": "Nainital",
+        "city": "Nainital",
+        "category": "Hill Station",
+        "description": "A lake town set around the eye-shaped Naini Lake.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Nainital_metro.jpg/960px-Nainital_metro.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Nainital_metro.jpg",
+          "author": "Skalvanov",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://en.wikipedia.org/wiki/Nainital"
+        }
+      },
+      {
+        "name": "Jim Corbett National Park",
+        "city": "Nainital/Pauri",
+        "category": "Wildlife",
+        "description": "India's oldest national park, established in 1936.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Bengal-Tiger_Corbett_Uttarakhand_Dec-2013.jpg/960px-Bengal-Tiger_Corbett_Uttarakhand_Dec-2013.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Bengal-Tiger_Corbett_Uttarakhand_Dec-2013.jpg",
+          "author": "Soumyajit Nandy",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source_page": "https://en.wikipedia.org/wiki/Jim_Corbett_National_Park"
+        }
+      },
+      {
+        "name": "Valley of Flowers",
+        "city": "Chamoli",
+        "category": "Nature",
+        "description": "A UNESCO-listed alpine valley in bloom during the monsoon.",
+        "wiki_title": "Valley of Flowers National Park",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Valley_of_flowers_national_park%2C_Uttarakhand%2C_India_03_%28edit%29.jpg/960px-Valley_of_flowers_national_park%2C_Uttarakhand%2C_India_03_%28edit%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Valley_of_flowers_national_park,_Uttarakhand,_India_03_(edit).jpg",
+          "author": "Original:  Rohit Sharma\nDerivative work:  UnpetitproleX",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://en.wikipedia.org/wiki/Valley_of_Flowers_National_Park"
+        }
+      }
     ]
   },
   {
@@ -471,16 +2424,97 @@
     "type": "State",
     "capital": "Kolkata",
     "region": "East",
-    "languages": ["Bengali"],
+    "languages": [
+      "Bengali"
+    ],
     "best_time": "October to March",
     "description": "A state stretching from the Himalayas to the Sundarbans delta, rich in art, literature and festivals.",
     "places": [
-      {"name": "Victoria Memorial", "city": "Kolkata", "category": "Heritage", "description": "A white marble museum hall built in memory of Queen Victoria."},
-      {"name": "Darjeeling", "city": "Darjeeling", "category": "Hill Station", "description": "Tea gardens, views of Kangchenjunga and the UNESCO toy train."},
-      {"name": "Sundarbans National Park", "city": "South 24 Parganas", "category": "Wildlife", "description": "The world's largest mangrove forest, home of the Royal Bengal tiger."},
-      {"name": "Dakshineswar Kali Temple", "city": "Kolkata", "category": "Spiritual", "description": "A riverside temple associated with Sri Ramakrishna."},
-      {"name": "Shantiniketan", "city": "Birbhum", "category": "Heritage", "description": "Rabindranath Tagore's university town, a UNESCO site."},
-      {"name": "Digha", "city": "Purba Medinipur", "category": "Beach", "description": "A popular seaside resort on the Bay of Bengal."}
+      {
+        "name": "Victoria Memorial",
+        "city": "Kolkata",
+        "category": "Heritage",
+        "description": "A white marble museum hall built in memory of Queen Victoria.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Victoria_Memorial_situated_in_Kolkata.jpg/960px-Victoria_Memorial_situated_in_Kolkata.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Victoria_Memorial_situated_in_Kolkata.jpg",
+          "author": "Subhrajyoti07",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://en.wikipedia.org/wiki/Victoria_Memorial%2C_Kolkata"
+        }
+      },
+      {
+        "name": "Darjeeling",
+        "city": "Darjeeling",
+        "category": "Hill Station",
+        "description": "Tea gardens, views of Kangchenjunga and the UNESCO toy train.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/DarjeelingTrainFruitshop_%282%29.jpg/960px-DarjeelingTrainFruitshop_%282%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:DarjeelingTrainFruitshop_(2).jpg",
+          "author": "Arne Hückelheim\n\n2010-09-21 12:41:53 This is a cropped in which the glare has been lessened",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://en.wikipedia.org/wiki/Darjeeling"
+        }
+      },
+      {
+        "name": "Sundarbans National Park",
+        "city": "South 24 Parganas",
+        "category": "Wildlife",
+        "description": "The world's largest mangrove forest, home of the Royal Bengal tiger.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Sundarban_Tiger.jpg/960px-Sundarban_Tiger.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Sundarban_Tiger.jpg",
+          "author": "Soumyajit Nandy",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://en.wikipedia.org/wiki/Sundarbans_National_Park"
+        }
+      },
+      {
+        "name": "Dakshineswar Kali Temple",
+        "city": "Kolkata",
+        "category": "Spiritual",
+        "description": "A riverside temple associated with Sri Ramakrishna.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Dakhineshwar_Temple_beside_the_Hoogly%2C_West_Bengal.JPG/960px-Dakhineshwar_Temple_beside_the_Hoogly%2C_West_Bengal.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Dakhineshwar_Temple_beside_the_Hoogly,_West_Bengal.JPG",
+          "author": "Knath",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source_page": "https://en.wikipedia.org/wiki/Dakshineswar_Kali_Temple"
+        }
+      },
+      {
+        "name": "Shantiniketan",
+        "city": "Birbhum",
+        "category": "Heritage",
+        "description": "Rabindranath Tagore's university town, a UNESCO site.",
+        "wiki_title": "Santiniketan",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Shantiniketan_Bari_of_Rabindranath_Tagore.jpg/960px-Shantiniketan_Bari_of_Rabindranath_Tagore.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Shantiniketan_Bari_of_Rabindranath_Tagore.jpg",
+          "author": "Billjones94",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://en.wikipedia.org/wiki/Santiniketan"
+        }
+      },
+      {
+        "name": "Digha",
+        "city": "Purba Medinipur",
+        "category": "Beach",
+        "description": "A popular seaside resort on the Bay of Bengal.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Digha_Tourist_Lodge_front_yard_1.jpg/960px-Digha_Tourist_Lodge_front_yard_1.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Digha_Tourist_Lodge_front_yard_1.jpg",
+          "author": "User:Ne0Freedom",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source_page": "https://en.wikipedia.org/wiki/Digha"
+        }
+      }
     ]
   },
   {
@@ -489,15 +2523,91 @@
     "type": "Union Territory",
     "capital": "Sri Vijaya Puram (Port Blair)",
     "region": "South",
-    "languages": ["Hindi", "Bengali", "Tamil", "English"],
+    "languages": [
+      "Hindi",
+      "Bengali",
+      "Tamil",
+      "English"
+    ],
     "best_time": "October to May",
     "description": "A chain of tropical islands in the Bay of Bengal with coral reefs and white-sand beaches.",
     "places": [
-      {"name": "Radhanagar Beach", "city": "Havelock (Swaraj Dweep)", "category": "Beach", "description": "Often ranked among the best beaches in Asia."},
-      {"name": "Cellular Jail", "city": "Sri Vijaya Puram", "category": "Heritage", "description": "A colonial prison and national memorial to freedom fighters."},
-      {"name": "Elephant Beach", "city": "Havelock (Swaraj Dweep)", "category": "Adventure", "description": "Known for snorkelling and sea-walking over coral reefs."},
-      {"name": "Neil Island (Shaheed Dweep)", "city": "Neil Island", "category": "Beach", "description": "A laid-back island with natural rock bridges."},
-      {"name": "Ross Island (Netaji Subhas Chandra Bose Dweep)", "city": "Sri Vijaya Puram", "category": "Heritage", "description": "Ruins of the British administrative headquarters reclaimed by trees."}
+      {
+        "name": "Radhanagar Beach",
+        "city": "Havelock (Swaraj Dweep)",
+        "category": "Beach",
+        "description": "Often ranked among the best beaches in Asia.",
+        "wiki_title": "Radhanagar Beach",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Radha_Nagar_beach%2C_Havelock_Island%2C_Andamn%2C_India-_Sun_set_view.jpg/960px-Radha_Nagar_beach%2C_Havelock_Island%2C_Andamn%2C_India-_Sun_set_view.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Radha_Nagar_beach,_Havelock_Island,_Andamn,_India-_Sun_set_view.jpg",
+          "author": "Harvinder Chandigarh",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://en.wikipedia.org/wiki/Radhanagar_Beach"
+        }
+      },
+      {
+        "name": "Cellular Jail",
+        "city": "Sri Vijaya Puram",
+        "category": "Heritage",
+        "description": "A colonial prison and national memorial to freedom fighters.",
+        "wiki_title": "Cellular Jail",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Front_View_of_Cellular_Jail%2C_Port_Blair.JPG/960px-Front_View_of_Cellular_Jail%2C_Port_Blair.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Front_View_of_Cellular_Jail,_Port_Blair.JPG",
+          "author": "Jomesh",
+          "license": "CC BY 3.0",
+          "license_url": "https://creativecommons.org/licenses/by/3.0",
+          "source_page": "https://en.wikipedia.org/wiki/Cellular_Jail"
+        }
+      },
+      {
+        "name": "Elephant Beach",
+        "city": "Havelock (Swaraj Dweep)",
+        "category": "Adventure",
+        "description": "Known for snorkelling and sea-walking over coral reefs.",
+        "wiki_title": "Havelock Island",
+        "wiki_file": "Elephant beach, Havelock Island.jpg",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Elephant_beach%2C_Havelock_Island.jpg/960px-Elephant_beach%2C_Havelock_Island.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Elephant_beach,_Havelock_Island.jpg",
+          "author": "Shimjithsr",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source_page": "https://en.wikipedia.org/wiki/Havelock_Island"
+        }
+      },
+      {
+        "name": "Neil Island (Shaheed Dweep)",
+        "city": "Neil Island",
+        "category": "Beach",
+        "description": "A laid-back island with natural rock bridges.",
+        "wiki_title": "Shaheed Dweep",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Keshet_neal_island_india.jpg/960px-Keshet_neal_island_india.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Keshet_neal_island_india.jpg",
+          "author": "Dorhodor",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source_page": "https://en.wikipedia.org/wiki/Neil_Island"
+        }
+      },
+      {
+        "name": "Ross Island (Netaji Subhas Chandra Bose Dweep)",
+        "city": "Sri Vijaya Puram",
+        "category": "Heritage",
+        "description": "Ruins of the British administrative headquarters reclaimed by trees.",
+        "wiki_title": "Netaji Subhas Chandra Bose Island",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Ross_Island_%28Netaji_Subhas_Bose_Island%29.jpg/960px-Ross_Island_%28Netaji_Subhas_Bose_Island%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Ross_Island_(Netaji_Subhas_Bose_Island).jpg",
+          "author": "Travelira",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://en.wikipedia.org/wiki/Ross_Island%2C_South_Andaman_district"
+        }
+      }
     ]
   },
   {
@@ -506,14 +2616,70 @@
     "type": "Union Territory",
     "capital": "Chandigarh",
     "region": "North",
-    "languages": ["Hindi", "Punjabi", "English"],
+    "languages": [
+      "Hindi",
+      "Punjabi",
+      "English"
+    ],
     "best_time": "October to March",
     "description": "India's first planned city, designed by Le Corbusier and shared capital of Punjab and Haryana.",
     "places": [
-      {"name": "Rock Garden", "city": "Chandigarh", "category": "Urban", "description": "Nek Chand's sculpture garden made from industrial and urban waste."},
-      {"name": "Sukhna Lake", "city": "Chandigarh", "category": "Lake", "description": "A reservoir at the foot of the Shivalik hills, popular for boating."},
-      {"name": "Capitol Complex", "city": "Chandigarh", "category": "Heritage", "description": "Le Corbusier's government buildings, a UNESCO World Heritage Site."},
-      {"name": "Zakir Hussain Rose Garden", "city": "Chandigarh", "category": "Nature", "description": "One of Asia's largest rose gardens."}
+      {
+        "name": "Rock Garden",
+        "city": "Chandigarh",
+        "category": "Urban",
+        "description": "Nek Chand's sculpture garden made from industrial and urban waste.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Chandigarh_Rock_Garden_4.jpg/960px-Chandigarh_Rock_Garden_4.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Chandigarh_Rock_Garden_4.jpg",
+          "author": "Ijon",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://en.wikipedia.org/wiki/Rock_Garden_of_Chandigarh"
+        }
+      },
+      {
+        "name": "Sukhna Lake",
+        "city": "Chandigarh",
+        "category": "Lake",
+        "description": "A reservoir at the foot of the Shivalik hills, popular for boating.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Sukhna_Lake_Chandigarh_India.jpg/960px-Sukhna_Lake_Chandigarh_India.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Sukhna_Lake_Chandigarh_India.jpg",
+          "author": "Unpetitprole",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://en.wikipedia.org/wiki/Sukhna_Lake"
+        }
+      },
+      {
+        "name": "Capitol Complex",
+        "city": "Chandigarh",
+        "category": "Heritage",
+        "description": "Le Corbusier's government buildings, a UNESCO World Heritage Site.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Palace_of_Assembly_Chandigarh_2006.jpg/960px-Palace_of_Assembly_Chandigarh_2006.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Palace_of_Assembly_Chandigarh_2006.jpg",
+          "author": "duncid",
+          "license": "CC BY-SA 2.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+          "source_page": "https://en.wikipedia.org/wiki/Chandigarh_Capitol_Complex"
+        }
+      },
+      {
+        "name": "Zakir Hussain Rose Garden",
+        "city": "Chandigarh",
+        "category": "Nature",
+        "description": "One of Asia's largest rose gardens.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Rose_Garden_%2CChandigarh%2CIndia.jpg/960px-Rose_Garden_%2CChandigarh%2CIndia.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Rose_Garden_,Chandigarh,India.jpg",
+          "author": "Harvinder Chandigarh",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://en.wikipedia.org/wiki/Zakir_Husain_Rose_Garden"
+        }
+      }
     ]
   },
   {
@@ -522,15 +2688,92 @@
     "type": "Union Territory",
     "capital": "Daman",
     "region": "West",
-    "languages": ["Gujarati", "Hindi", "Marathi"],
+    "languages": [
+      "Gujarati",
+      "Hindi",
+      "Marathi"
+    ],
     "best_time": "October to May",
     "description": "Former Portuguese enclaves on India's west coast, with forts, churches and quiet beaches.",
     "places": [
-      {"name": "Diu Fort", "city": "Diu", "category": "Heritage", "description": "A 16th-century Portuguese fort surrounded by the sea on three sides."},
-      {"name": "Naida Caves", "city": "Diu", "category": "Nature", "description": "A maze of caves and tunnels lit by shafts of sunlight."},
-      {"name": "Devka Beach", "city": "Daman", "category": "Beach", "description": "A beach promenade with gardens and an amusement park."},
-      {"name": "Vanganga Lake Garden", "city": "Silvassa", "category": "Lake", "description": "A lake garden with islands and footbridges."},
-      {"name": "Nagoa Beach", "city": "Diu", "category": "Beach", "description": "A horseshoe-shaped beach lined with palm trees."}
+      {
+        "name": "Diu Fort",
+        "city": "Diu",
+        "category": "Heritage",
+        "description": "A 16th-century Portuguese fort surrounded by the sea on three sides.",
+        "wiki_title": "Diu Fort",
+        "image": {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/17/Diu%2CGujarat%2CIndia_%2837%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Diu,Gujarat,India_(37).jpg",
+          "author": "Srinath G M",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source_page": "https://en.wikipedia.org/wiki/Diu_Fortress"
+        }
+      },
+      {
+        "name": "Naida Caves",
+        "city": "Diu",
+        "category": "Nature",
+        "description": "A maze of caves and tunnels lit by shafts of sunlight.",
+        "wiki_file": "Naida Caves, Diu.jpg",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Naida_Caves%2C_Diu.jpg/960px-Naida_Caves%2C_Diu.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Naida_Caves,_Diu.jpg",
+          "author": "Edwin James",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source_page": ""
+        }
+      },
+      {
+        "name": "Devka Beach",
+        "city": "Daman",
+        "category": "Beach",
+        "description": "A beach promenade with gardens and an amusement park.",
+        "wiki_title": "Daman, India",
+        "wiki_file": "Sunset at Devka beach, daman.jpg",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Sunset_at_Devka_beach%2C_daman.jpg/960px-Sunset_at_Devka_beach%2C_daman.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Sunset_at_Devka_beach,_daman.jpg",
+          "author": "Ameyawiki",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://en.wikipedia.org/wiki/Daman%2C_India"
+        }
+      },
+      {
+        "name": "Vanganga Lake Garden",
+        "city": "Silvassa",
+        "category": "Lake",
+        "description": "A lake garden with islands and footbridges.",
+        "wiki_title": "Silvassa",
+        "wiki_file": "Vanganga Garden, Silvassa (32345632184).jpg",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Vanganga_Garden%2C_Silvassa_%2832345632184%29.jpg/960px-Vanganga_Garden%2C_Silvassa_%2832345632184%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Vanganga_Garden,_Silvassa_(32345632184).jpg",
+          "author": "Ashish Gupta from Noida, India",
+          "license": "CC BY 2.0",
+          "license_url": "https://creativecommons.org/licenses/by/2.0",
+          "source_page": "https://en.wikipedia.org/wiki/Silvassa"
+        }
+      },
+      {
+        "name": "Nagoa Beach",
+        "city": "Diu",
+        "category": "Beach",
+        "description": "A horseshoe-shaped beach lined with palm trees.",
+        "wiki_title": "Nagoa Beach",
+        "wiki_file": "Nagoa Beach, Diu.jpg",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Nagoa_Beach%2C_Diu.jpg/960px-Nagoa_Beach%2C_Diu.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Nagoa_Beach,_Diu.jpg",
+          "author": "User: (WT-shared) SyeN at  wts wikivoyage",
+          "license": "Public domain",
+          "license_url": "",
+          "source_page": "https://en.wikipedia.org/wiki/Nagoa_Beach"
+        }
+      }
     ]
   },
   {
@@ -539,16 +2782,99 @@
     "type": "Union Territory",
     "capital": "New Delhi",
     "region": "North",
-    "languages": ["Hindi", "English", "Punjabi", "Urdu"],
+    "languages": [
+      "Hindi",
+      "English",
+      "Punjabi",
+      "Urdu"
+    ],
     "best_time": "October to March",
     "description": "The national capital, where Mughal monuments, colonial avenues and modern life sit side by side.",
     "places": [
-      {"name": "Red Fort", "city": "Old Delhi", "category": "Heritage", "description": "Shah Jahan's red sandstone fort, where the Prime Minister speaks every Independence Day."},
-      {"name": "Qutub Minar", "city": "Mehrauli", "category": "Heritage", "description": "A 73 m minaret from the 12th century, a UNESCO site."},
-      {"name": "India Gate", "city": "New Delhi", "category": "Heritage", "description": "A war memorial on Kartavya Path, with the National War Memorial nearby."},
-      {"name": "Humayun's Tomb", "city": "Nizamuddin", "category": "Heritage", "description": "A garden tomb that inspired the Taj Mahal."},
-      {"name": "Lotus Temple", "city": "Kalkaji", "category": "Spiritual", "description": "A Bahá'í house of worship shaped like a lotus flower."},
-      {"name": "Akshardham Temple", "city": "East Delhi", "category": "Spiritual", "description": "A vast temple complex with exhibitions and a musical fountain."}
+      {
+        "name": "Red Fort",
+        "city": "Old Delhi",
+        "category": "Heritage",
+        "description": "Shah Jahan's red sandstone fort, where the Prime Minister speaks every Independence Day.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Delhi_fort.jpg/960px-Delhi_fort.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Delhi_fort.jpg",
+          "author": "PerSona77",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source_page": "https://en.wikipedia.org/wiki/Red_Fort"
+        }
+      },
+      {
+        "name": "Qutub Minar",
+        "city": "Mehrauli",
+        "category": "Heritage",
+        "description": "A 73 m minaret from the 12th century, a UNESCO site.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Qutb_Minar_2022.jpg/960px-Qutb_Minar_2022.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Qutb_Minar_2022.jpg",
+          "author": "Wasir kasab",
+          "license": "CC BY 4.0",
+          "license_url": "https://creativecommons.org/licenses/by/4.0",
+          "source_page": "https://en.wikipedia.org/wiki/Qutb_Minar"
+        }
+      },
+      {
+        "name": "India Gate",
+        "city": "New Delhi",
+        "category": "Heritage",
+        "description": "A war memorial on Kartavya Path, with the National War Memorial nearby.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/India_Gate_front.jpg/960px-India_Gate_front.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:India_Gate_front.jpg",
+          "author": "AKS.9955",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://en.wikipedia.org/wiki/India_Gate"
+        }
+      },
+      {
+        "name": "Humayun's Tomb",
+        "city": "Nizamuddin",
+        "category": "Heritage",
+        "description": "A garden tomb that inspired the Taj Mahal.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Tomb_of_Humayun%2C_Delhi.jpg/960px-Tomb_of_Humayun%2C_Delhi.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Tomb_of_Humayun,_Delhi.jpg",
+          "author": "Muhammad Mahdi Karim",
+          "license": "GFDL 1.2",
+          "license_url": "http://www.gnu.org/licenses/old-licenses/fdl-1.2.html",
+          "source_page": "https://en.wikipedia.org/wiki/Humayun%27s_tomb"
+        }
+      },
+      {
+        "name": "Lotus Temple",
+        "city": "Kalkaji",
+        "category": "Spiritual",
+        "description": "A Bahá'í house of worship shaped like a lotus flower.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/LotusDelhi.jpg/960px-LotusDelhi.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:LotusDelhi.jpg",
+          "author": "Vandelizer",
+          "license": "CC BY 2.0",
+          "license_url": "https://creativecommons.org/licenses/by/2.0",
+          "source_page": "https://en.wikipedia.org/wiki/Lotus_Temple"
+        }
+      },
+      {
+        "name": "Akshardham Temple",
+        "city": "East Delhi",
+        "category": "Spiritual",
+        "description": "A vast temple complex with exhibitions and a musical fountain.",
+        "image": {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/New_Delhi_Temple.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "file_page": "https://commons.wikimedia.org/wiki/File:New_Delhi_Temple.jpg",
+          "author": "Swaminarayan Sanstha",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source_page": "https://en.wikipedia.org/wiki/Swaminarayan_Akshardham_%28Delhi%29"
+        }
+      }
     ]
   },
   {
@@ -557,16 +2883,100 @@
     "type": "Union Territory",
     "capital": "Srinagar (summer), Jammu (winter)",
     "region": "North",
-    "languages": ["Kashmiri", "Dogri", "Urdu", "Hindi"],
+    "languages": [
+      "Kashmiri",
+      "Dogri",
+      "Urdu",
+      "Hindi"
+    ],
     "best_time": "March to October, December to February for snow",
     "description": "'Paradise on Earth', with lakes, Mughal gardens, alpine meadows and snow-capped peaks.",
     "places": [
-      {"name": "Dal Lake", "city": "Srinagar", "category": "Lake", "description": "Famous for its houseboats, shikara rides and floating markets."},
-      {"name": "Gulmarg", "city": "Baramulla", "category": "Adventure", "description": "A ski resort with one of the world's highest cable cars."},
-      {"name": "Pahalgam", "city": "Anantnag", "category": "Hill Station", "description": "The 'Valley of Shepherds' and base for the Amarnath Yatra."},
-      {"name": "Sonamarg", "city": "Ganderbal", "category": "Nature", "description": "The 'Meadow of Gold', with glaciers and the Sindh river."},
-      {"name": "Vaishno Devi", "city": "Katra", "category": "Spiritual", "description": "A cave shrine in the Trikuta hills, one of India's most visited pilgrimages."},
-      {"name": "Mughal Gardens", "city": "Srinagar", "category": "Heritage", "description": "Shalimar Bagh, Nishat Bagh and Chashme Shahi along Dal Lake."}
+      {
+        "name": "Dal Lake",
+        "city": "Srinagar",
+        "category": "Lake",
+        "description": "Famous for its houseboats, shikara rides and floating markets.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Dal_Lake_Hazratbal_Srinagar.jpg/960px-Dal_Lake_Hazratbal_Srinagar.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Dal_Lake_Hazratbal_Srinagar.jpg",
+          "author": "Suhail Skindar Sofi",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://en.wikipedia.org/wiki/Dal_Lake"
+        }
+      },
+      {
+        "name": "Gulmarg",
+        "city": "Baramulla",
+        "category": "Adventure",
+        "description": "A ski resort with one of the world's highest cable cars.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Ancient_Temple%2C_Gulmarg.jpg/960px-Ancient_Temple%2C_Gulmarg.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Ancient_Temple,_Gulmarg.jpg",
+          "author": "Anurag Kumar",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://en.wikipedia.org/wiki/Gulmarg"
+        }
+      },
+      {
+        "name": "Pahalgam",
+        "city": "Anantnag",
+        "category": "Hill Station",
+        "description": "The 'Valley of Shepherds' and base for the Amarnath Yatra.",
+        "wiki_title": "Pahalgam",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/LiddarRiverJhelum.jpeg/960px-LiddarRiverJhelum.jpeg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:LiddarRiverJhelum.jpeg",
+          "author": "Unknown",
+          "license": "CC0",
+          "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "source_page": "https://en.wikipedia.org/wiki/Pahalgam"
+        }
+      },
+      {
+        "name": "Sonamarg",
+        "city": "Ganderbal",
+        "category": "Nature",
+        "description": "The 'Meadow of Gold', with glaciers and the Sindh river.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Sonmarg_rishav7336.jpg/960px-Sonmarg_rishav7336.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Sonmarg_rishav7336.jpg",
+          "author": "Wikiditot",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://en.wikipedia.org/wiki/Sonamarg"
+        }
+      },
+      {
+        "name": "Vaishno Devi",
+        "city": "Katra",
+        "category": "Spiritual",
+        "description": "A cave shrine in the Trikuta hills, one of India's most visited pilgrimages.",
+        "image": {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Snowfall_in_Vaishno_Devi.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Snowfall_in_Vaishno_Devi.jpg",
+          "author": "Yatin. 123",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://en.wikipedia.org/wiki/Vaishno_Devi_Temple"
+        }
+      },
+      {
+        "name": "Mughal Gardens",
+        "city": "Srinagar",
+        "category": "Heritage",
+        "description": "Shalimar Bagh, Nishat Bagh and Chashme Shahi along Dal Lake.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Shalimar_Bagh_1.jpg/960px-Shalimar_Bagh_1.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Shalimar_Bagh_1.jpg",
+          "author": "ANSAR AHMAD",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://en.wikipedia.org/wiki/Shalimar_Bagh%2C_Srinagar"
+        }
+      }
     ]
   },
   {
@@ -575,16 +2985,100 @@
     "type": "Union Territory",
     "capital": "Leh",
     "region": "North",
-    "languages": ["Ladakhi", "Hindi", "English"],
+    "languages": [
+      "Ladakhi",
+      "Hindi",
+      "English"
+    ],
     "best_time": "May to September",
     "description": "A high-altitude cold desert of monasteries, turquoise lakes and some of the world's highest motorable roads.",
     "places": [
-      {"name": "Pangong Tso", "city": "Leh district", "category": "Lake", "description": "A high-altitude lake that changes colour through the day."},
-      {"name": "Nubra Valley", "city": "Leh district", "category": "Nature", "description": "Sand dunes with Bactrian camels, reached over Khardung La."},
-      {"name": "Thiksey Monastery", "city": "Leh", "category": "Spiritual", "description": "A 12-storey monastery that resembles the Potala Palace."},
-      {"name": "Leh Palace", "city": "Leh", "category": "Heritage", "description": "A 17th-century royal palace overlooking Leh town."},
-      {"name": "Tso Moriri", "city": "Changthang", "category": "Lake", "description": "A remote lake and wetland reserve at over 4,500 m."},
-      {"name": "Magnetic Hill", "city": "Leh district", "category": "Adventure", "description": "A stretch of road where an optical illusion makes cars seem to roll uphill."}
+      {
+        "name": "Pangong Tso",
+        "city": "Leh district",
+        "category": "Lake",
+        "description": "A high-altitude lake that changes colour through the day.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/ISS054-E-7809_-_View_of_Earth_%28cropped%29.jpg/960px-ISS054-E-7809_-_View_of_Earth_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:ISS054-E-7809_-_View_of_Earth_(cropped).jpg",
+          "author": "Earth Science and Remote Sensing Unit, NASA Johnson Space Center",
+          "license": "Public domain",
+          "license_url": "",
+          "source_page": "https://en.wikipedia.org/wiki/Pangong_Tso"
+        }
+      },
+      {
+        "name": "Nubra Valley",
+        "city": "Leh district",
+        "category": "Nature",
+        "description": "Sand dunes with Bactrian camels, reached over Khardung La.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/5_Nubra_valley.jpg/960px-5_Nubra_valley.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:5_Nubra_valley.jpg",
+          "author": "Addy6697",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://en.wikipedia.org/wiki/Nubra"
+        }
+      },
+      {
+        "name": "Thiksey Monastery",
+        "city": "Leh",
+        "category": "Spiritual",
+        "description": "A 12-storey monastery that resembles the Potala Palace.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Thikse_Monastery_.jpg/960px-Thikse_Monastery_.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Thikse_Monastery_.jpg",
+          "author": "Aksveer",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://en.wikipedia.org/wiki/Thikse_Monastery"
+        }
+      },
+      {
+        "name": "Leh Palace",
+        "city": "Leh",
+        "category": "Heritage",
+        "description": "A 17th-century royal palace overlooking Leh town.",
+        "wiki_title": "Leh Palace",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Leh_Palace_2011.jpg/960px-Leh_Palace_2011.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Leh_Palace_2011.jpg",
+          "author": "KennyOMG",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://en.wikipedia.org/wiki/Leh_Palace"
+        }
+      },
+      {
+        "name": "Tso Moriri",
+        "city": "Changthang",
+        "category": "Lake",
+        "description": "A remote lake and wetland reserve at over 4,500 m.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Tso_Moriri%2C_Ladakh_%2834855616204%29.jpg/960px-Tso_Moriri%2C_Ladakh_%2834855616204%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Tso_Moriri,_Ladakh_(34855616204).jpg",
+          "author": "Tanay Kibe",
+          "license": "CC BY-SA 2.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+          "source_page": "https://en.wikipedia.org/wiki/Tso_Moriri"
+        }
+      },
+      {
+        "name": "Magnetic Hill",
+        "city": "Leh district",
+        "category": "Adventure",
+        "description": "A stretch of road where an optical illusion makes cars seem to roll uphill.",
+        "wiki_file": "Magnetic Hill, Ladakh.jpg",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Magnetic_Hill%2C_Ladakh.jpg/960px-Magnetic_Hill%2C_Ladakh.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Magnetic_Hill,_Ladakh.jpg",
+          "author": "Kartikey Brahmkshatriya",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source_page": ""
+        }
+      }
     ]
   },
   {
@@ -593,15 +3087,87 @@
     "type": "Union Territory",
     "capital": "Kavaratti",
     "region": "South",
-    "languages": ["Malayalam", "Jeseri", "Mahl"],
+    "languages": [
+      "Malayalam",
+      "Jeseri",
+      "Mahl"
+    ],
     "best_time": "October to May",
     "description": "India's smallest UT, a group of 36 coral islands in the Arabian Sea with lagoons and reefs.",
     "places": [
-      {"name": "Agatti Island", "city": "Agatti", "category": "Beach", "description": "The entry island with the airport and a coral lagoon."},
-      {"name": "Bangaram Island", "city": "Bangaram", "category": "Beach", "description": "A teardrop-shaped island known for its turquoise lagoon."},
-      {"name": "Kavaratti Island", "city": "Kavaratti", "category": "Adventure", "description": "Snorkelling, kayaking and glass-bottom boat rides."},
-      {"name": "Minicoy Island", "city": "Minicoy", "category": "Heritage", "description": "A distinct Mahl-speaking culture and a 19th-century lighthouse."},
-      {"name": "Kadmat Island", "city": "Kadmat", "category": "Adventure", "description": "A popular spot for scuba diving and water sports."}
+      {
+        "name": "Agatti Island",
+        "city": "Agatti",
+        "category": "Beach",
+        "description": "The entry island with the airport and a coral lagoon.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Agatti_Airstrip.jpg/960px-Agatti_Airstrip.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Agatti_Airstrip.jpg",
+          "author": "Julio",
+          "license": "CC BY-SA 2.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+          "source_page": "https://en.wikipedia.org/wiki/Agatti_Island"
+        }
+      },
+      {
+        "name": "Bangaram Island",
+        "city": "Bangaram",
+        "category": "Beach",
+        "description": "A teardrop-shaped island known for its turquoise lagoon.",
+        "wiki_title": "Bangaram Atoll",
+        "wiki_file": "Bangaram Island, Lakshadweep 20160325- DSC1780.jpg",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Bangaram_Island%2C_Lakshadweep_20160325-_DSC1780.jpg/960px-Bangaram_Island%2C_Lakshadweep_20160325-_DSC1780.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Bangaram_Island,_Lakshadweep_20160325-_DSC1780.jpg",
+          "author": "The.chhayachitrakar",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://en.wikipedia.org/wiki/Bangaram_Atoll"
+        }
+      },
+      {
+        "name": "Kavaratti Island",
+        "city": "Kavaratti",
+        "category": "Adventure",
+        "description": "Snorkelling, kayaking and glass-bottom boat rides.",
+        "image": {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Kavaratii.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Kavaratii.jpg",
+          "author": "Mehdi Hassan",
+          "license": "CC BY-SA 2.5",
+          "license_url": "https://creativecommons.org/licenses/by-sa/2.5",
+          "source_page": "https://en.wikipedia.org/wiki/Kavaratti"
+        }
+      },
+      {
+        "name": "Minicoy Island",
+        "city": "Minicoy",
+        "category": "Heritage",
+        "description": "A distinct Mahl-speaking culture and a 19th-century lighthouse.",
+        "wiki_title": "Minicoy",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Minicoy_Island%2C_Lakshadweep.jpg/960px-Minicoy_Island%2C_Lakshadweep.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Minicoy_Island,_Lakshadweep.jpg",
+          "author": "Anand.himani18",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://en.wikipedia.org/wiki/Minicoy"
+        }
+      },
+      {
+        "name": "Kadmat Island",
+        "city": "Kadmat",
+        "category": "Adventure",
+        "description": "A popular spot for scuba diving and water sports.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Map_of_Lakshadweep-en.svg/960px-Map_of_Lakshadweep-en.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Map_of_Lakshadweep-en.svg",
+          "author": "Oona Räisänen (Mysid)",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source_page": "https://en.wikipedia.org/wiki/Kadmat_Island"
+        }
+      }
     ]
   },
   {
@@ -610,15 +3176,89 @@
     "type": "Union Territory",
     "capital": "Puducherry",
     "region": "South",
-    "languages": ["Tamil", "French", "Malayalam", "Telugu", "English"],
+    "languages": [
+      "Tamil",
+      "French",
+      "Malayalam",
+      "Telugu",
+      "English"
+    ],
     "best_time": "October to March",
     "description": "A former French colony with pastel-coloured streets, seaside promenades and a spiritual community.",
     "places": [
-      {"name": "French Quarter (White Town)", "city": "Puducherry", "category": "Heritage", "description": "Colonial villas, cafés and bougainvillea-lined streets."},
-      {"name": "Auroville", "city": "Auroville", "category": "Spiritual", "description": "An international township built around the golden Matrimandir."},
-      {"name": "Promenade Beach", "city": "Puducherry", "category": "Beach", "description": "A 1.5 km seafront walk along the Bay of Bengal."},
-      {"name": "Sri Aurobindo Ashram", "city": "Puducherry", "category": "Spiritual", "description": "The spiritual community founded by Sri Aurobindo in 1926."},
-      {"name": "Paradise Beach", "city": "Chunnambar", "category": "Beach", "description": "A quiet beach reached by boat through the backwaters."}
+      {
+        "name": "French Quarter (White Town)",
+        "city": "Puducherry",
+        "category": "Heritage",
+        "description": "Colonial villas, cafés and bougainvillea-lined streets.",
+        "wiki_title": "Pondicherry",
+        "wiki_file": "Streets of White town, Puducherry.jpg",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Streets_of_White_town%2C_Puducherry.jpg/960px-Streets_of_White_town%2C_Puducherry.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Streets_of_White_town,_Puducherry.jpg",
+          "author": "iMahesh",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": "https://en.wikipedia.org/wiki/Pondicherry"
+        }
+      },
+      {
+        "name": "Auroville",
+        "city": "Auroville",
+        "category": "Spiritual",
+        "description": "An international township built around the golden Matrimandir.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Town_Hall_of_Auroville.jpg/960px-Town_Hall_of_Auroville.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Town_Hall_of_Auroville.jpg",
+          "author": "Kaspar Konrad",
+          "license": "Public domain",
+          "license_url": "",
+          "source_page": "https://en.wikipedia.org/wiki/Auroville"
+        }
+      },
+      {
+        "name": "Promenade Beach",
+        "city": "Puducherry",
+        "category": "Beach",
+        "description": "A 1.5 km seafront walk along the Bay of Bengal.",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Pondicherry-Rock_beach_aerial_view.jpg/960px-Pondicherry-Rock_beach_aerial_view.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Pondicherry-Rock_beach_aerial_view.jpg",
+          "author": "Karthik Easvur",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+          "source_page": "https://en.wikipedia.org/wiki/Promenade_Beach"
+        }
+      },
+      {
+        "name": "Sri Aurobindo Ashram",
+        "city": "Puducherry",
+        "category": "Spiritual",
+        "description": "The spiritual community founded by Sri Aurobindo in 1926.",
+        "image": {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/The-Mothers-Symbol.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "file_page": "https://commons.wikimedia.org/wiki/File:The-Mothers-Symbol.png",
+          "author": "The Mothers Symbol  This  PNG graphic was created with GIMP.",
+          "license": "Public domain",
+          "license_url": "",
+          "source_page": "https://en.wikipedia.org/wiki/Sri_Aurobindo_Ashram"
+        }
+      },
+      {
+        "name": "Paradise Beach",
+        "city": "Chunnambar",
+        "category": "Beach",
+        "description": "A quiet beach reached by boat through the backwaters.",
+        "wiki_file": "Paradise beach in pondicherry.jpg",
+        "image": {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Paradise_beach_in_pondicherry.jpg/960px-Paradise_beach_in_pondicherry.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "file_page": "https://commons.wikimedia.org/wiki/File:Paradise_beach_in_pondicherry.jpg",
+          "author": "Ehteshaam Khatri",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source_page": ""
+        }
+      }
     ]
   }
 ]
