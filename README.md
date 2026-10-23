@@ -46,3 +46,26 @@ cd frontend && python3 scripts/fetch_hero_images.py
 
 Timing lives in `frontend/src/components/HeroSlideshow.jsx` (`DISPLAY_MS`, `FADE_MS`); keep
 `--hero-fade` in `index.css` equal to `FADE_MS`.
+
+## State page slideshows
+
+Every state/UT page (`/states/<id>`) has a background slideshow of **that state's own places
+only**, using the same timing as the homepage.
+
+- Mapping: `frontend/src/data/stateSlides.json` (state id → slides with credits), read through
+  `frontend/src/data/stateSlides.js` (`getStateSlides`, `resolveStateId`, `normalizeStateSlug`).
+- Images: `frontend/public/images/states/<state-id>/<place>-{960,1600}.webp`.
+- Component: `frontend/src/components/StateBackgroundSlideshow.jsx` (keyed per state, so
+  switching states fully resets it), built on `BackgroundSlideshow.jsx`.
+
+The mapping is generated from the backend's place list, so a state can only get photos of its
+own places. To rebuild (needs `brew install webp`):
+
+```bash
+cd frontend
+python3 scripts/fetch_state_images.py              # all states
+python3 scripts/fetch_state_images.py --only goa   # one state
+```
+
+Photos narrower than 1200px or not landscape are skipped; to use a better photo of a place,
+add its Commons file name to `OVERRIDES` in the script.

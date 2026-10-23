@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { NavLink, Outlet, Route, Routes, useLocation } from "react-router-dom";
+import { NavLink, Outlet, Route, Routes, useLocation, useNavigationType } from "react-router-dom";
 import Home from "./pages/Home.jsx";
 import StateDetail from "./pages/StateDetail.jsx";
 import Places from "./pages/Places.jsx";
@@ -8,8 +8,8 @@ import AuthLayout from "./auth/AuthLayout.jsx";
 import LoginPage from "./auth/LoginPage.jsx";
 import SignupPage from "./auth/SignupPage.jsx";
 
-// On the homepage the header sits transparently over the hero photos until you scroll past them.
-function useHeaderOverHero(enabled) {
+// On pages with a photo hero the header sits transparently over it until you scroll past.
+function useHeaderOverHero(enabled, pathname) {
   const [overHero, setOverHero] = useState(enabled);
   useEffect(() => {
     if (!enabled) {
@@ -17,7 +17,7 @@ function useHeaderOverHero(enabled) {
       return;
     }
     const update = () => {
-      const hero = document.querySelector(".home-hero");
+      const hero = document.querySelector(".page-hero");
       setOverHero(!!hero && window.scrollY < hero.offsetHeight - 72);
     };
     update();
@@ -27,17 +27,24 @@ function useHeaderOverHero(enabled) {
       window.removeEventListener("scroll", update);
       window.removeEventListener("resize", update);
     };
-  }, [enabled]);
+  }, [enabled, pathname]);
   return overHero;
 }
 
 function MainLayout() {
-  const isHome = useLocation().pathname === "/";
-  const overHero = useHeaderOverHero(isHome);
+  const { pathname } = useLocation();
+  const navigationType = useNavigationType();
+  const hasHero = pathname === "/" || pathname.startsWith("/states/");
+  const overHero = useHeaderOverHero(hasHero, pathname);
+
+  // New pages start at the top; back/forward keep the browser's scroll restoration.
+  useEffect(() => {
+    if (navigationType !== "POP") window.scrollTo(0, 0);
+  }, [pathname, navigationType]);
 
   return (
     <>
-      <header className={`topbar ${isHome ? "topbar-home" : ""} ${overHero ? "is-over-hero" : ""}`}>
+      <header className={`topbar ${hasHero ? "topbar-home" : ""} ${overHero ? "is-over-hero" : ""}`}>
         <div className="container topbar-inner">
           <NavLink to="/" className="brand">
             <span className="brand-mark" aria-hidden="true" />
@@ -76,8 +83,8 @@ export default function App() {
       </Route>
       <Route element={<MainLayout />}>
         <Route path="/" element={<Home />} />
+        <Route path="/states/:id" element={<StateDetail />} />
         <Route element={<Contained />}>
-          <Route path="/states/:id" element={<StateDetail />} />
           <Route path="/places" element={<Places />} />
           <Route path="/terms" element={<Legal doc="terms" />} />
           <Route path="/privacy" element={<Legal doc="privacy" />} />

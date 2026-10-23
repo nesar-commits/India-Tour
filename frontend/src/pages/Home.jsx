@@ -4,8 +4,18 @@ import { api } from "../api.js";
 import { useFetch } from "../useFetch.js";
 import Chips from "../components/Chips.jsx";
 import Photo from "../components/Photo.jsx";
-import HeroSlideshow from "../components/HeroSlideshow.jsx";
+import BackgroundSlideshow from "../components/BackgroundSlideshow.jsx";
 import { ArrowRightIcon } from "../components/Icons.jsx";
+import heroData from "../data/heroSlides.json";
+
+const HOME_SLIDES = heroData.slides.map((s) => ({
+  ...s,
+  focusPortrait: s.focus_portrait,
+  src: `/hero/${s.id}-1920.webp`,
+  srcSet: heroData.widths.map((w) => `/hero/${s.id}-${w}.webp ${w}w`).join(", "),
+}));
+// Portrait screens crop a 3:2 photo to full height, so they need a wider source.
+const HOME_SIZES = "(orientation: portrait) 150vh, 100vw";
 
 export default function Home() {
   const [q, setQ] = useState("");
@@ -28,8 +38,8 @@ export default function Home() {
 
   return (
     <>
-      <section className="home-hero">
-        <HeroSlideshow />
+      <section className="page-hero home-hero">
+        <BackgroundSlideshow slides={HOME_SLIDES} sizes={HOME_SIZES} />
         <div className="container home-hero-content">
           <p className="home-hero-eyebrow">28 states · 8 union territories · one incredible country</p>
           <h1>Explore India, state by state</h1>

@@ -119,19 +119,6 @@ nav a.active, nav a:hover { color: var(--text); background: var(--accent-soft); 
 }
 .tag.outline { background: transparent; border: 1px solid var(--border); color: var(--muted); }
 
-.back { display: inline-block; margin: 24px 0 12px; color: var(--muted); text-decoration: none; }
-.back:hover { color: var(--text); }
-
-.state-hero {
-  background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
-  border-left: 6px solid var(--region); padding: 24px;
-}
-.state-hero h1 { font-size: clamp(1.7rem, 4vw, 2.4rem); margin: 10px 0 8px; }
-.state-hero > p { max-width: 720px; margin: 0; }
-.facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; margin: 20px 0 0; }
-.facts dt { font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.04em; color: var(--muted); }
-.facts dd { margin: 2px 0 0; font-weight: 600; }
-
 .section-head { display: flex; flex-direction: column; gap: 10px; margin: 32px 0 16px; }
 
 .place-card { display: flex; flex-direction: column; gap: 4px; }
@@ -183,8 +170,6 @@ nav a.active, nav a:hover { color: var(--text); background: var(--accent-soft); 
 .place-body .more { margin-top: auto; padding-top: 8px; color: var(--accent); text-decoration: none; }
 .place-body .more:hover { text-decoration: underline; }
 
-.state-hero { overflow: hidden; }
-.hero-photo { height: clamp(180px, 32vw, 340px); margin: -24px -24px 20px; }
 
 /* Auth links in the top bar */
 nav { align-items: center; }
@@ -222,8 +207,9 @@ nav a.nav-cta:hover, nav a.nav-cta.active { background: #22345a; color: #fff; }
 .topbar-home.is-over-hero nav a.nav-cta { background: #f5a03a; color: #13203a; text-shadow: none; }
 .topbar-home.is-over-hero nav a.nav-cta:hover { background: #f7b25d; }
 
-.home-hero {
-  --hero-fade: 1200ms; /* keep in sync with FADE_MS in HeroSlideshow.jsx */
+/* Shared by every page with a photo hero (homepage and state pages). */
+.page-hero {
+  --hero-fade: 1200ms; /* keep in sync with FADE_MS in BackgroundSlideshow.jsx */
   --hero-ink: #fff;
   position: relative;
   isolation: isolate;
@@ -231,10 +217,9 @@ nav a.nav-cta:hover, nav a.nav-cta.active { background: #22345a; color: #fff; }
   display: flex;
   align-items: center;
   margin-top: -61px; /* sit under the transparent header (60px + 1px border) */
-  min-height: clamp(600px, 92vh, 880px);
-  min-height: clamp(600px, 92svh, 880px);
   color: var(--hero-ink);
-  /* Fallback shown before the first photo loads, or if every photo fails. */
+  /* Neutral India-Tour fallback: shown before the first photo loads, if a state has
+     no photos, or if every photo fails. Never another page's or state's photos. */
   background: linear-gradient(135deg, #13203a 0%, #26355a 55%, #7a4a2a 100%);
 }
 
@@ -257,6 +242,8 @@ nav a.nav-cta:hover, nav a.nav-cta.active { background: #22345a; color: #fff; }
 @media (orientation: portrait) {
   .hero-slide { object-position: var(--focus-portrait, center); }
 }
+
+.home-hero { min-height: clamp(600px, 92vh, 880px); min-height: clamp(600px, 92svh, 880px); }
 
 .hero-shade {
   position: absolute;
@@ -438,4 +425,105 @@ nav a.nav-cta:hover, nav a.nav-cta.active { background: #22345a; color: #fff; }
 
 @media (prefers-reduced-motion: reduce) {
   .hero-slide, .hero-credit { transition: none; animation: none; }
+}
+
+/* State page hero (background: StateBackgroundSlideshow) */
+.state-page-hero {
+  align-items: flex-end;
+  min-height: clamp(520px, 78vh, 760px);
+  min-height: clamp(520px, 78svh, 760px);
+}
+.state-hero-content { position: relative; z-index: 1; width: 100%; padding-top: 104px; padding-bottom: 72px; }
+.hero-back {
+  display: inline-flex;
+  margin-bottom: 20px;
+  padding: 6px 12px 6px 10px;
+  border-radius: 999px;
+  background: rgb(12 20 38 / 0.35);
+  border: 1px solid rgb(255 255 255 / 0.2);
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-decoration: none;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  transition: background 0.2s ease;
+}
+.hero-back:hover { background: rgb(12 20 38 / 0.55); }
+.hero-back:focus-visible { outline: 2px solid #ffd08f; outline-offset: 3px; }
+.state-hero-tags { display: flex; gap: 8px; margin-bottom: 14px; }
+.hero-tag {
+  padding: 3px 10px;
+  border-radius: 999px;
+  background: #f5a03a;
+  color: #13203a;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+.hero-tag.outline { background: rgb(12 20 38 / 0.35); color: #fff; border: 1px solid rgb(255 255 255 / 0.3); }
+.state-page-hero h1 {
+  margin: 0;
+  font-family: "Fraunces", Georgia, serif;
+  font-size: clamp(2.3rem, 5.5vw, 4rem);
+  font-weight: 600;
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+  text-shadow: 0 2px 28px rgb(0 0 0 / 0.3);
+}
+.state-hero-lead {
+  max-width: 640px;
+  margin: 16px 0 0;
+  font-size: clamp(1rem, 1.5vw, 1.15rem);
+  color: rgb(255 255 255 / 0.92);
+  text-shadow: 0 1px 12px rgb(0 0 0 / 0.35);
+}
+.state-hero-facts {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, max-content));
+  gap: 12px;
+  margin: 28px 0 0;
+}
+.state-hero-facts div {
+  padding: 12px 16px;
+  border-radius: 14px;
+  background: rgb(12 20 38 / 0.38);
+  border: 1px solid rgb(255 255 255 / 0.18);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+.state-hero-facts dt { font-size: 0.72rem; letter-spacing: 0.06em; text-transform: uppercase; color: rgb(255 255 255 / 0.75); }
+.state-hero-facts dd { margin: 3px 0 0; font-weight: 600; }
+.state-hero-skeleton { display: grid; gap: 14px; }
+.state-hero-skeleton span { display: block; height: 18px; width: 70%; max-width: 560px; border-radius: 8px; background: rgb(255 255 255 / 0.18); }
+.state-hero-skeleton span:first-child { height: 52px; width: 40%; }
+
+.state-pager {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  margin: 48px 0 0;
+  padding-top: 24px;
+  border-top: 1px solid var(--border);
+}
+.state-pager a {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 10px 14px;
+  border-radius: 12px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 0.15s ease;
+}
+.state-pager a[rel="next"] { text-align: right; }
+.state-pager a:hover { background: var(--accent-soft); }
+.state-pager span { font-size: 0.75rem; font-weight: 500; color: var(--muted); text-transform: uppercase; letter-spacing: 0.06em; }
+
+@media (max-width: 760px) {
+  .state-hero-facts { grid-template-columns: 1fr; gap: 8px; }
+  .state-hero-facts div { padding: 10px 14px; }
+}
+@media (max-width: 640px) {
+  .state-page-hero { min-height: 100svh; }
+  .state-hero-content { padding-top: 88px; padding-bottom: 76px; }
 }

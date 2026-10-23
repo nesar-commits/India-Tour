@@ -1,13 +1,7 @@
 import { memo, useCallback, useEffect, useState } from "react";
-import heroData from "../data/heroSlides.json";
 
-const DISPLAY_MS = 5000; // how long each photo is fully visible
-const FADE_MS = 1200; // crossfade duration (keep in sync with --hero-fade in CSS)
-
-const srcSet = (id) => heroData.widths.map((w) => `/hero/${id}-${w}.webp ${w}w`).join(", ");
-const src = (id) => `/hero/${id}-1920.webp`;
-// Portrait screens crop a 3:2 photo to full height, so they need a wider source.
-const SIZES = "(orientation: portrait) 150vh, 100vw";
+export const DISPLAY_MS = 5000; // how long each photo is fully visible
+export const FADE_MS = 1200; // crossfade duration (keep in sync with --hero-fade in CSS)
 
 function usePrefersReducedMotion() {
   const query = "(prefers-reduced-motion: reduce)";
@@ -44,8 +38,12 @@ function nextIndex(from, count, failed) {
  * opaque outgoing one, which is only removed once covered, so there is never a blank or
  * darkened frame. Only the current, outgoing and next photos are mounted, so the browser
  * downloads one photo ahead instead of all of them.
+ *
+ * slides: [{ id, src, srcSet, place, location, credit, focus?, focusPortrait? }]
+ * The slide list must keep a stable identity; give the component a new `key` to switch
+ * to a different list (see StateBackgroundSlideshow).
  */
-function HeroSlideshow({ slides = heroData.slides }) {
+function BackgroundSlideshow({ slides, sizes = "100vw" }) {
   const count = slides.length;
   const reducedMotion = usePrefersReducedMotion();
   const pageVisible = usePageVisible();
@@ -56,7 +54,7 @@ function HeroSlideshow({ slides = heroData.slides }) {
   const [failed, setFailed] = useState(() => new Set());
   const [due, setDue] = useState(false); // hold time over; advance once the next photo is ready
 
-  const next = nextIndex(current, count, failed);
+  const next = count ? nextIndex(current, count, failed) : 0;
   const currentReady = loaded.has(current);
   const canAnimate = count > 1 && !reducedMotion && pageVisible;
 
@@ -90,10 +88,11 @@ function HeroSlideshow({ slides = heroData.slides }) {
   const markLoaded = useCallback((i) => setLoaded((s) => (s.has(i) ? s : new Set(s).add(i))), []);
   const markFailed = useCallback((i) => setFailed((s) => (s.has(i) ? s : new Set(s).add(i))), []);
 
-  const mounted = [...new Set([previous, current, canAnimate ? next : null])].filter(
-    (i) => i !== null && !failed.has(i)
-  );
-  const active = slides[current];
+  // No photos (or all failed): the container's neutral gradient shows instead.
+  const mounted = count
+    ? [...new Set([previous, current, canAnimate ? next : null])].filter((i) => i !== null && !failed.has(i))
+    : [];
+  const active = count && !failed.has(current) ? slides[current] : null;
 
   return (
     <div className="hero-slideshow" aria-hidden="true">
@@ -104,20 +103,20 @@ function HeroSlideshow({ slides = heroData.slides }) {
           <img
             key={slide.id}
             className={`hero-slide ${role} ${loaded.has(i) ? "is-loaded" : ""}`}
-            src={src(slide.id)}
-            srcSet={srcSet(slide.id)}
-            sizes={SIZES}
+            src={slide.src}
+            srcSet={slide.srcSet}
+            sizes={sizes}
             alt=""
             decoding="async"
             fetchpriority={i === 0 && previous === null ? "high" : "low"}
-            style={{ "--focus": slide.focus, "--focus-portrait": slide.focus_portrait }}
+            style={{ "--focus": slide.focus, "--focus-portrait": slide.focusPortrait }}
             onLoad={() => markLoaded(i)}
             onError={() => markFailed(i)}
           />
         );
       })}
       <div className="hero-shade" />
-      {active && !failed.has(current) && (
+      {active && (
         <p className="hero-credit" key={active.id}>
           <span className="hero-credit-place">
             {active.place}, {active.location}
@@ -135,5 +134,5 @@ function HeroSlideshow({ slides = heroData.slides }) {
   );
 }
 
-// Props never change, so parent re-renders (e.g. typing in search) can't restart the cycle.
-export default memo(HeroSlideshow);
+// With stable props, parent re-renders (e.g. typing in search) can't restart the cycle.
+export default memo(BackgroundSlideshow);
