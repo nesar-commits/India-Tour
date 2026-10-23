@@ -185,3 +185,20 @@ nav a.active, nav a:hover { color: var(--text); background: var(--accent-soft); 
 
 .state-hero { overflow: hidden; }
 .hero-photo { height: clamp(180px, 32vw, 340px); margin: -24px -24px 20px; }
+
+/* Auth links in the top bar */
+nav { align-items: center; }
+nav a.nav-login { margin-left: 8px; }
+nav a.nav-cta {
+  margin-left: 4px;
+  background: #13203a; color: #fbf7f0;
+}
+nav a.nav-cta:hover, nav a.nav-cta.active { background: #22345a; color: #fff; }
+@media (prefers-color-scheme: dark) {
+  nav a.nav-cta { background: #f5a03a; color: #13203a; }
+  nav a.nav-cta:hover, nav a.nav-cta.active { background: #f7b25d; color: #13203a; }
+}
+@media (max-width: 560px) {
+  nav a { padding: 6px 8px; font-size: 0.9rem; }
+  nav a.nav-login { display: none; }
+}
