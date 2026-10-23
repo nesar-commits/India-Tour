@@ -31,3 +31,18 @@ Backend requirements: hash passwords (bcrypt/argon2), keep the session in an `ht
 `Secure`, `SameSite=Lax` cookie (longer-lived when `remember` is true), and allow `POST` in CORS
 if the frontend is served from a different origin. Password reset, Google sign-in, and the
 real Terms/Privacy text (`/terms` and `/privacy` are placeholders) are also still to do.
+
+## Homepage slideshow
+
+The homepage hero cycles through 10 destination photos (5 s each, 1.2 s crossfade). They are
+local WebP files in `frontend/public/hero/` (1280/1920/2560 px), downloaded from Wikimedia
+Commons with their author and license recorded in `frontend/src/data/heroSlides.json` and
+credited on screen. To change the photos, edit `SLIDES` in
+`frontend/scripts/fetch_hero_images.py` and run (needs `brew install webp`):
+
+```bash
+cd frontend && python3 scripts/fetch_hero_images.py
+```
+
+Timing lives in `frontend/src/components/HeroSlideshow.jsx` (`DISPLAY_MS`, `FADE_MS`); keep
+`--hero-fade` in `index.css` equal to `FADE_MS`.

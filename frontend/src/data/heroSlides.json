@@ -1,0 +1,139 @@
+{
+  "widths": [
+    1280,
+    1920,
+    2560
+  ],
+  "slides": [
+    {
+      "id": "taj-mahal",
+      "place": "Taj Mahal",
+      "location": "Agra, Uttar Pradesh",
+      "focus": "50% 45%",
+      "focus_portrait": "58% 50%",
+      "credit": {
+        "author": "Philip Nalangan",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "file_page": "https://commons.wikimedia.org/wiki/File:Taj_Mahal_Agra_India_2025_12.jpg"
+      }
+    },
+    {
+      "id": "kerala-backwaters",
+      "place": "Kerala Backwaters",
+      "location": "Alappuzha, Kerala",
+      "focus": "50% 55%",
+      "focus_portrait": "35% 50%",
+      "credit": {
+        "author": "Ingo Mehling",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "file_page": "https://commons.wikimedia.org/wiki/File:Nedumudy_-_Houseboat.jpg"
+      }
+    },
+    {
+      "id": "pangong-tso",
+      "place": "Pangong Tso",
+      "location": "Ladakh",
+      "focus": "50% 50%",
+      "focus_portrait": "55% 50%",
+      "credit": {
+        "author": "Mohanrangaphotography",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "file_page": "https://commons.wikimedia.org/wiki/File:Pangong_Lake,_Ladakh_valley.jpg"
+      }
+    },
+    {
+      "id": "hawa-mahal",
+      "place": "Hawa Mahal",
+      "location": "Jaipur, Rajasthan",
+      "focus": "50% 40%",
+      "focus_portrait": "50% 40%",
+      "credit": {
+        "author": "Jakub Hałun",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "file_page": "https://commons.wikimedia.org/wiki/File:20191218_Pa%C5%82ac_Wiatr%C3%B3w_w_Jaipurze_1129_9124.jpg"
+      }
+    },
+    {
+      "id": "palolem-goa",
+      "place": "Palolem Beach",
+      "location": "South Goa",
+      "focus": "50% 50%",
+      "focus_portrait": "70% 50%",
+      "credit": {
+        "author": "Mahabalaindia",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "file_page": "https://commons.wikimedia.org/wiki/File:Rock_formation,_Palolem_Beach.jpg"
+      }
+    },
+    {
+      "id": "varanasi-ghats",
+      "place": "Ganges at Varanasi",
+      "location": "Varanasi, Uttar Pradesh",
+      "focus": "50% 60%",
+      "focus_portrait": "62% 50%",
+      "credit": {
+        "author": "Schwiki",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "file_page": "https://commons.wikimedia.org/wiki/File:Boats_at_sunrise_Ganges_River_Varanasi_Uttar_Pradesh_Schwiki.jpg"
+      }
+    },
+    {
+      "id": "kanchenjunga",
+      "place": "Kanchenjunga Range",
+      "location": "Darjeeling, West Bengal",
+      "focus": "50% 35%",
+      "focus_portrait": "55% 40%",
+      "credit": {
+        "author": "Dinesh Valke from Thane, India",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "file_page": "https://commons.wikimedia.org/wiki/File:Kanchenjunga_range_viewed_from_Zoological_Park_(51939904768).jpg"
+      }
+    },
+    {
+      "id": "nohkalikai-falls",
+      "place": "Nohkalikai Falls",
+      "location": "Cherrapunji, Meghalaya",
+      "focus": "55% 50%",
+      "focus_portrait": "56% 50%",
+      "credit": {
+        "author": "Wikimedia Commons",
+        "license": "Public domain",
+        "license_url": "",
+        "file_page": "https://commons.wikimedia.org/wiki/File:Nohkalikai_falls,shillong,meghalaya.jpeg"
+      }
+    },
+    {
+      "id": "hampi",
+      "place": "Virupaksha Temple",
+      "location": "Hampi, Karnataka",
+      "focus": "55% 50%",
+      "focus_portrait": "60% 50%",
+      "credit": {
+        "author": "iMahesh",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "file_page": "https://commons.wikimedia.org/wiki/File:Wide_angle_of_Galigopuram_of_Virupaksha_Temple,_Hampi_(03).jpg"
+      }
+    },
+    {
+      "id": "radhanagar-beach",
+      "place": "Radhanagar Beach",
+      "location": "Swaraj Dweep, Andaman Islands",
+      "focus": "50% 50%",
+      "focus_portrait": "62% 50%",
+      "credit": {
+        "author": "Vyacheslav Argenberg",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "file_page": "https://commons.wikimedia.org/wiki/File:Havelock_Island,_Radhanagar_Beach,_Andaman_Islands.jpg"
+      }
+    }
+  ]
+}
