@@ -1,5 +1,6 @@
 import { Link, Outlet, useLocation } from "react-router-dom";
 import { ArrowLeftIcon, MapPinIcon } from "../components/Icons.jsx";
+import { kiteLaunchHandlers } from "../effects/kiteFlight.js";
 
 const commons = (path, file) => (width) =>
   `https://upload.wikimedia.org/wikipedia/commons/thumb/${path}/${width}px-${file}`;
@@ -60,7 +61,7 @@ export default function AuthLayout() {
         ))}
         <div className="auth-visual-shade" aria-hidden="true" />
 
-        <Link to="/" className="auth-brand" aria-label="India Tour home">
+        <Link to="/" className="auth-brand" aria-label="India Tour home" {...kiteLaunchHandlers}>
           <img src="/brand/india-tour-logo-horizontal-reversed.svg" alt="" width="174" height="38" />
         </Link>
 

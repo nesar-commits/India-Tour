@@ -1,0 +1,65 @@
+/* Flying-kite effect for the INDIA TOUR logo (see kiteFlight.js). */
+
+.kite-layer {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  pointer-events: none; /* never blocks clicks, taps or scrolling */
+  overflow: hidden;
+  contain: strict;
+}
+
+.kite {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: var(--kite-size);
+  pointer-events: none;
+  will-change: transform, opacity;
+  filter: drop-shadow(0 6px 10px rgb(20 33 61 / 0.22));
+}
+
+/* Gentle wind sway around the bridle point. */
+.kite-sway {
+  transform-origin: 50% 37%;
+  animation: kite-sway var(--sway-ms, 1100ms) ease-in-out infinite alternate;
+}
+@keyframes kite-sway {
+  from { transform: rotate(-7deg) translateY(0); }
+  to { transform: rotate(7deg) translateY(-3px); }
+}
+
+.kite-svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  overflow: visible;
+}
+.kite-edge { fill: none; stroke: rgb(20 33 61 / 0.18); stroke-width: 0.8; stroke-linejoin: round; }
+.kite-bow { fill: none; stroke: rgb(255 255 255 / 0.85); stroke-width: 1.4; stroke-linecap: round; }
+.kite-spine { stroke: rgb(255 255 255 / 0.75); stroke-width: 1.1; }
+.kite-string { fill: none; stroke: rgb(20 33 61 / 0.45); stroke-width: 0.7; }
+
+/* Ribbon tails flutter in the wind. */
+.kite-tails path { fill: none; stroke-width: 2.6; stroke-linecap: round; }
+.kite-tails {
+  transform-origin: 30px 66px;
+  transform-box: view-box;
+  animation: kite-flutter var(--flutter-ms, 380ms) ease-in-out infinite alternate;
+}
+@keyframes kite-flutter {
+  from { transform: rotate(-12deg) skewX(-6deg); }
+  to { transform: rotate(12deg) skewX(6deg); }
+}
+
+/* Reduced motion: the kite stays still (no sway or flutter) and just fades in and out. */
+.kite--still .kite-sway,
+.kite--still .kite-tails {
+  animation: none;
+}
+@media (prefers-reduced-motion: reduce) {
+  .kite-sway,
+  .kite-tails {
+    animation: none;
+  }
+}

@@ -7,6 +7,7 @@ import Legal from "./pages/Legal.jsx";
 import AuthLayout from "./auth/AuthLayout.jsx";
 import LoginPage from "./auth/LoginPage.jsx";
 import SignupPage from "./auth/SignupPage.jsx";
+import { kiteLaunchHandlers } from "./effects/kiteFlight.js";
 
 // On pages with a photo hero the header sits transparently over it until you scroll past.
 function useHeaderOverHero(enabled, pathname) {
@@ -46,7 +47,7 @@ function MainLayout() {
     <>
       <header className={`topbar ${hasHero ? "topbar-home" : ""} ${overHero ? "is-over-hero" : ""}`}>
         <div className="container topbar-inner">
-          <NavLink to="/" className="brand" aria-label="India Tour home">
+          <NavLink to="/" className="brand" aria-label="India Tour home" {...kiteLaunchHandlers}>
             {/* CSS shows the colour logo on light headers, the reversed one over photos / in dark mode */}
             <img className="brand-logo brand-logo-color" src="/brand/india-tour-logo-horizontal.svg" alt="" width="146" height="32" />
             <img className="brand-logo brand-logo-reversed" src="/brand/india-tour-logo-horizontal-reversed.svg" alt="" width="146" height="32" />
