@@ -83,26 +83,12 @@
 
 .auth-brand {
   position: absolute;
-  top: 32px;
+  top: 30px;
   left: clamp(24px, 4vw, 48px);
   display: inline-flex;
-  align-items: center;
-  gap: 10px;
-  font-family: var(--a-serif);
-  font-size: 1.4rem;
-  font-weight: 600;
-  letter-spacing: -0.01em;
-  color: #fff;
-  text-decoration: none;
   border-radius: 8px;
 }
-.auth-brand-mark {
-  width: 26px;
-  height: 26px;
-  border-radius: 50%;
-  background: linear-gradient(180deg, #ff9933 0 33%, #fff 33% 66%, #138808 66%);
-  box-shadow: 0 0 0 2px rgb(255 255 255 / 0.6);
-}
+.auth-brand img { display: block; height: 38px; width: auto; filter: drop-shadow(0 1px 10px rgb(0 0 0 / 0.35)); }
 
 .auth-visual-caption {
   position: absolute;
@@ -538,7 +524,8 @@
 @media (max-width: 960px) {
   .auth { grid-template-columns: 1fr; }
   .auth-visual { position: relative; height: 320px; }
-  .auth-brand { top: 22px; font-size: 1.25rem; }
+  .auth-brand { top: 22px; }
+  .auth-brand img { height: 30px; }
   .auth-visual-caption {
     bottom: 62px;
     padding: 0;

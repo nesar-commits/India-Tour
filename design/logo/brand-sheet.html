@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>INDIA TOUR logo</title>
+<style>
+  :root { --navy: #14213d; --emerald: #0b6e4f; --line: #e7e4dd; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: #fff; color: var(--navy); font: 15px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 1080px; margin: 0 auto; padding: 48px 20px 80px; }
+  h1 { font-size: 1rem; letter-spacing: 0.14em; text-transform: uppercase; color: #6b7280; margin: 0 0 32px; }
+  h2 { font-size: 0.8rem; letter-spacing: 0.12em; text-transform: uppercase; color: #6b7280; margin: 48px 0 14px; }
+  .hero { border: 1px solid var(--line); border-radius: 16px; padding: 64px 40px; display: grid; place-items: center; }
+  .hero img { width: min(460px, 100%); height: auto; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 14px; }
+  .tile { border-radius: 14px; padding: 28px 24px; display: grid; place-items: center; min-height: 200px; border: 1px solid var(--line); }
+  .tile img { width: 100%; max-width: 200px; height: auto; }
+  .dark { background: var(--navy); border-color: var(--navy); }
+  .green { background: var(--emerald); border-color: var(--emerald); }
+  .photo { background: linear-gradient(135deg, #3d5a80, #7a4a2a); border: 0; }
+  .caption { font-size: 0.8rem; color: #6b7280; margin-top: 6px; }
+  .bar { display: flex; align-items: center; height: 64px; padding: 0 20px; border-radius: 12px; border: 1px solid var(--line); margin-bottom: 10px; }
+  .bar.dark img, .bar img { height: 32px; width: auto; }
+  .row { display: flex; gap: 28px; align-items: flex-end; flex-wrap: wrap; }
+  .row figure { margin: 0; text-align: center; }
+  .swatches { display: flex; gap: 14px; flex-wrap: wrap; }
+  .swatch { width: 170px; border-radius: 12px; overflow: hidden; border: 1px solid var(--line); }
+  .swatch div { height: 64px; }
+  .swatch p { margin: 0; padding: 10px 12px; font-size: 0.85rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>India Tour · logo</h1>
+  <div class="hero"><img src="../../frontend/public/brand/india-tour-logo.svg" alt="INDIA TOUR logo" /></div>
+
+  <h2>Versions</h2>
+  <div class="grid">
+    <figure style="margin:0"><div class="tile dark"><img src="../../frontend/public/brand/india-tour-logo-reversed.svg" alt="" /></div><figcaption class="caption">Reversed, for dark backgrounds</figcaption></figure>
+    <figure style="margin:0"><div class="tile photo"><img src="../../frontend/public/brand/india-tour-logo-reversed.svg" alt="" /></div><figcaption class="caption">Reversed, on photography</figcaption></figure>
+    <figure style="margin:0"><div class="tile"><img src="../../frontend/public/brand/india-tour-logo-mono.svg" alt="" /></div><figcaption class="caption">Single colour</figcaption></figure>
+    <figure style="margin:0"><div class="tile green"><img src="../../frontend/public/brand/india-tour-logo-white.svg" alt="" /></div><figcaption class="caption">White, on brand colour</figcaption></figure>
+  </div>
+
+  <h2>Horizontal: website header and mobile navigation (actual size)</h2>
+  <div class="bar"><img src="../../frontend/public/brand/india-tour-logo-horizontal.svg" alt="" /></div>
+  <div class="bar dark"><img src="../../frontend/public/brand/india-tour-logo-horizontal-reversed.svg" alt="" /></div>
+
+  <h2>App icon, social avatar and favicon</h2>
+  <div class="row">
+    <figure><img src="../../frontend/public/brand/india-tour-app-icon.svg" width="180" height="180" style="filter:drop-shadow(0 2px 8px rgb(0 0 0 / .15))" alt="" /><figcaption class="caption">App icon 180</figcaption></figure>
+    <figure><img src="../../frontend/public/brand/india-tour-app-icon.svg" width="120" height="120" style="clip-path:circle(50%);filter:drop-shadow(0 2px 8px rgb(0 0 0 / .15))" alt="" /><figcaption class="caption">Circular avatar crop</figcaption></figure>
+    <figure><img src="../../frontend/public/brand/india-tour-favicon.svg" width="64" height="64" alt="" /><figcaption class="caption">Favicon 64</figcaption></figure>
+    <figure><img src="../../frontend/public/brand/india-tour-favicon.svg" width="32" height="32" alt="" /><figcaption class="caption">32</figcaption></figure>
+    <figure><img src="../../frontend/public/brand/india-tour-favicon.svg" width="16" height="16" alt="" /><figcaption class="caption">16</figcaption></figure>
+  </div>
+
+  <h2>Colours</h2>
+  <div class="swatches">
+    <div class="swatch"><div style="background:#F07F14"></div><p><strong>Saffron</strong><br />#F07F14</p></div>
+    <div class="swatch"><div style="background:#F2A20C"></div><p><strong>Golden orange</strong><br />#F2A20C</p></div>
+    <div class="swatch"><div style="background:#0B6E4F"></div><p><strong>Emerald</strong><br />#0B6E4F</p></div>
+    <div class="swatch"><div style="background:#14213D"></div><p><strong>Midnight navy</strong><br />#14213D</p></div>
+  </div>
+</main>
+</body>
+</html>

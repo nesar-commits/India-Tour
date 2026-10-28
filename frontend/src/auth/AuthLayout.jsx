@@ -60,9 +60,8 @@ export default function AuthLayout() {
         ))}
         <div className="auth-visual-shade" aria-hidden="true" />
 
-        <Link to="/" className="auth-brand" aria-label="India-Tour home">
-          <span className="auth-brand-mark" aria-hidden="true" />
-          India-Tour
+        <Link to="/" className="auth-brand" aria-label="India Tour home">
+          <img src="/brand/india-tour-logo-horizontal-reversed.svg" alt="" width="174" height="38" />
         </Link>
 
         <div className="auth-visual-caption" key={active.path}>

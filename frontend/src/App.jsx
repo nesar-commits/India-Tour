@@ -46,9 +46,10 @@ function MainLayout() {
     <>
       <header className={`topbar ${hasHero ? "topbar-home" : ""} ${overHero ? "is-over-hero" : ""}`}>
         <div className="container topbar-inner">
-          <NavLink to="/" className="brand">
-            <span className="brand-mark" aria-hidden="true" />
-            India Tour
+          <NavLink to="/" className="brand" aria-label="India Tour home">
+            {/* CSS shows the colour logo on light headers, the reversed one over photos / in dark mode */}
+            <img className="brand-logo brand-logo-color" src="/brand/india-tour-logo-horizontal.svg" alt="" width="146" height="32" />
+            <img className="brand-logo brand-logo-reversed" src="/brand/india-tour-logo-horizontal-reversed.svg" alt="" width="146" height="32" />
           </NavLink>
           <nav>
             <NavLink to="/" end>States</NavLink>
