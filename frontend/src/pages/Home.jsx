@@ -7,6 +7,7 @@ import Photo from "../components/Photo.jsx";
 import BackgroundSlideshow from "../components/BackgroundSlideshow.jsx";
 import { ArrowRightIcon } from "../components/Icons.jsx";
 import heroData from "../data/heroSlides.json";
+import { getStateCover } from "../data/stateSlides.js";
 
 const HOME_SLIDES = heroData.slides.map((s) => ({
   ...s,
@@ -84,39 +85,64 @@ export default function Home() {
         </div>
       </section>
 
-      <div className="container">
-        <section className="filters" ref={resultsRef} id="explore" aria-label="Filter states">
-          {stats && <Chips options={stats.regions} value={region} onChange={setRegion} allLabel="All regions" />}
-          <Chips options={["State", "Union Territory"]} value={type} onChange={setType} allLabel="States & UTs" />
-          {q && (
-            <p className="muted small">
-              Showing results for “{q}” ·{" "}
-              <button type="button" className="link-button" onClick={() => setQ("")}>Clear search</button>
+      <section className="states-band" ref={resultsRef} id="explore" aria-labelledby="states-heading">
+        <div className="container">
+          <header className="states-band-head">
+            <div>
+              <p className="states-band-eyebrow">Browse by state</p>
+              <h2 id="states-heading">Find your next destination</h2>
+            </div>
+            <p className="states-band-count" aria-live="polite">
+              {states ? `Showing ${states.length} of ${stats ? stats.states + stats.union_territories : 36} states & UTs` : " "}
             </p>
-          )}
-        </section>
+          </header>
 
-        {error && <p className="status error">Could not load states: {error}. Is the API running?</p>}
-        {loading && !states && <p className="status">Loading…</p>}
-        {states && states.length === 0 && <p className="status">No matches found.</p>}
+          <div className="filters states-filters" aria-label="Filter states">
+            {stats && <Chips options={stats.regions} value={region} onChange={setRegion} allLabel="All regions" />}
+            <Chips options={["State", "Union Territory"]} value={type} onChange={setType} allLabel="States & UTs" />
+            {q && (
+              <p className="muted small">
+                Showing results for “{q}” ·{" "}
+                <button type="button" className="link-button" onClick={() => setQ("")}>Clear search</button>
+              </p>
+            )}
+          </div>
 
-        <section className="grid">
-          {states?.map((s) => (
-            <Link key={s.id} to={`/states/${s.id}`} className={`card state-card region-${s.region.toLowerCase()}`}>
-              <Photo image={s.cover_image} alt={s.name} className="state-photo" credit={false} />
-              <div className="state-card-body">
-                <div className="state-card-top">
-                  <span className="tag">{s.region}</span>
-                  {s.type === "Union Territory" && <span className="tag outline">UT</span>}
-                </div>
-                <h2>{s.name}</h2>
-                <p className="muted small">Capital: {s.capital}</p>
-                <p className="small count">{s.place_count} places to visit →</p>
-              </div>
-            </Link>
-          ))}
-        </section>
-      </div>
+          {error && <p className="status error">Could not load states: {error}. Is the API running?</p>}
+          {loading && !states && <p className="status">Loading…</p>}
+          {states && states.length === 0 && <p className="status">No matches found.</p>}
+
+          <div className="grid state-grid">
+            {states?.map((s) => {
+              // Prefer the state's own curated landscape photo; fall back to the API cover.
+              const cover = getStateCover(s.id);
+              return (
+                <Link key={s.id} to={`/states/${s.id}`} className={`card state-card region-${s.region.toLowerCase()}`}>
+                  <div className="state-card-media">
+                    <Photo
+                      image={cover ?? s.cover_image}
+                      alt={cover ? `${cover.place}, ${s.name}` : s.name}
+                      className="state-photo"
+                      credit={false}
+                    />
+                    <div className="state-card-badges">
+                      <span className="tag">{s.region}</span>
+                      {s.type === "Union Territory" && <span className="tag outline">UT</span>}
+                    </div>
+                    <h3 className="state-card-title">{s.name}</h3>
+                  </div>
+                  <div className="state-card-body">
+                    <p className="muted small state-card-capital" title={`Capital: ${s.capital}`}>
+                      Capital: {s.capital}
+                    </p>
+                    <p className="small count">{s.place_count} places to visit →</p>
+                  </div>
+                </Link>
+              );
+            })}
+          </div>
+        </div>
+      </section>
     </>
   );
 }

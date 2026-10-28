@@ -54,6 +54,14 @@ export function getStateSlides(value) {
   return cache.get(id);
 }
 
+/** Card-sized cover photo for a state: its first slide at the smallest width, or null. */
+export function getStateCover(value) {
+  const id = resolveStateId(value);
+  const first = id && mapping[id].slides[0];
+  if (!first) return null;
+  return { url: imageUrl(id, first.id, first.widths[0]), place: first.place };
+}
+
 /** Previous/next state in the app's state order, for moving between state pages. */
 export function getNeighbourStates(value) {
   const i = STATE_IDS.indexOf(resolveStateId(value));
