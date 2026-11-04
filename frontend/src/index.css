@@ -154,3 +154,34 @@ nav a.active, nav a:hover { color: var(--text); background: var(--accent-soft); 
 .status { padding: 32px 0; color: var(--muted); }
 .status.error { color: #c62828; }
 .footer { padding: 48px 16px 32px; color: var(--muted); font-size: 0.85rem; }
+
+/* Photos */
+.photo { position: relative; margin: 0; background: var(--accent-soft); overflow: hidden; }
+.photo img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.photo-empty {
+  background:
+    linear-gradient(135deg, color-mix(in srgb, var(--region, var(--accent)) 22%, transparent), transparent),
+    var(--accent-soft);
+}
+.photo figcaption {
+  position: absolute; right: 0; bottom: 0; max-width: 100%;
+  padding: 2px 8px; font-size: 0.68rem; color: #fff;
+  background: rgb(0 0 0 / 0.55); border-top-left-radius: 6px;
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.photo figcaption a { color: #fff; text-decoration: none; }
+.photo figcaption a:hover { text-decoration: underline; }
+
+.state-card, .place-card { padding: 0; gap: 0; overflow: hidden; }
+.state-photo { aspect-ratio: 16 / 9; }
+.state-card-body { padding: 14px 18px 18px; display: flex; flex-direction: column; gap: 6px; flex: 1; }
+.state-card:hover .state-photo img { transform: scale(1.04); }
+.state-photo img { transition: transform 0.3s ease; }
+
+.place-photo { aspect-ratio: 4 / 3; }
+.place-body { padding: 14px 18px 18px; display: flex; flex-direction: column; gap: 4px; flex: 1; }
+.place-body .more { margin-top: auto; padding-top: 8px; color: var(--accent); text-decoration: none; }
+.place-body .more:hover { text-decoration: underline; }
+
+.state-hero { overflow: hidden; }
+.hero-photo { height: clamp(180px, 32vw, 340px); margin: -24px -24px 20px; }

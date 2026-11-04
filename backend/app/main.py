@@ -73,6 +73,7 @@ def list_states(
                 capital=s.capital,
                 region=s.region,
                 place_count=len(s.places),
+                cover_image=s.cover_image,
             )
         )
     return results

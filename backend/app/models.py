@@ -1,6 +1,15 @@
-from typing import List
+from typing import List, Optional
 
 from pydantic import BaseModel
+
+
+class Image(BaseModel):
+    url: str
+    file_page: str
+    author: str
+    license: str
+    license_url: str = ""
+    source_page: str = ""
 
 
 class Place(BaseModel):
@@ -8,6 +17,9 @@ class Place(BaseModel):
     city: str
     category: str
     description: str
+    wiki_title: Optional[str] = None
+    wiki_file: Optional[str] = None
+    image: Optional[Image] = None
 
 
 class PlaceWithState(Place):
@@ -22,6 +34,7 @@ class StateSummary(BaseModel):
     capital: str
     region: str
     place_count: int
+    cover_image: Optional[Image] = None
 
 
 class State(BaseModel):
@@ -34,6 +47,10 @@ class State(BaseModel):
     best_time: str
     description: str
     places: List[Place]
+
+    @property
+    def cover_image(self) -> Optional[Image]:
+        return next((p.image for p in self.places if p.image), None)
 
 
 class Stats(BaseModel):
